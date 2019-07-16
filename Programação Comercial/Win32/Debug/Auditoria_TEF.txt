@@ -1,0 +1,1026 @@
+26/06/2018-08:55:16:756:			>> fnDefinirProduto_Daruma(TEF)
+26/06/2018-08:55:16:827:				# Inicializar Conformidade
+26/06/2018-08:55:16:839:				# Conformidade de Status STS iniciado
+26/06/2018-08:55:16:850:				# Conformidade de Confirmação da Ultima Transação CNF iniciado
+26/06/2018-08:55:16:861:				# Conformidade de Desfazer a Ultima Transação NCN iniciado
+26/06/2018-08:55:16:873:				# Conformidade de Requisição de Transação de Venda CRT iniciado
+26/06/2018-08:55:16:885:				# Conformidade de Resposta de Transação de Venda CRT iniciado
+26/06/2018-08:55:16:896:				# Conformidade de Requisição de Transação de Administrativa ADM iniciado
+26/06/2018-08:55:16:909:				# Conformidade de Resposta de Transação de Administrativa ADM iniciado
+26/06/2018-08:55:16:921:				# Conformidade de Requisição de Transação de Cancelamento CNC iniciado
+26/06/2018-08:55:16:932:				# Conformidade de Resposta de Transação de Cancelamento CNC iniciado
+26/06/2018-08:55:16:944:				# Conformidade de Requisição de Captura de Dado CDP iniciado
+26/06/2018-08:55:16:955:				# Conformidade de Resposta de Captura de Dado CDP iniciado
+26/06/2018-08:55:16:967:			<< fnDefinirProduto_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:16:979:			>> fnTransacaoVenda_TEF_Daruma(2, 010, F, 12312312314, , , VISANET, 10, 1, 1, 1, )
+26/06/2018-08:55:16:991:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 1)
+26/06/2018-08:55:17:003:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:17:027:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+26/06/2018-08:55:17:141:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:17:150:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+26/06/2018-08:55:17:154:					>> fnValidarFinal_999_999(7, MapaBase)
+26/06/2018-08:55:17:159:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+26/06/2018-08:55:17:164:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:17:169:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 210)
+26/06/2018-08:55:29:731:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:29:739:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 1)
+26/06/2018-08:55:29:747:					>> fnValidarFinal_999_999(1, MapaBase)
+26/06/2018-08:55:29:753:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+26/06/2018-08:55:29:759:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:29:764:				>> fnXML_AlterarValor(TEF\NSU, 08552910838, C:\Users\godgc\Desktop\DarumaFramework_NFCe_Delphi7exe\DarumaFrameWork.xml, 1)
+26/06/2018-08:55:29:784:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+26/06/2018-08:55:29:789:				>> fnXML_AlterarValor(TEF\RedeAdquirente, 000, C:\Users\godgc\Desktop\DarumaFramework_NFCe_Delphi7exe\DarumaFrameWork.xml, 1)
+26/06/2018-08:55:29:819:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+26/06/2018-08:55:29:825:				>> fnXML_AlterarValor(TEF\NumeroSessao, 100718, C:\Users\godgc\Desktop\DarumaFramework_NFCe_Delphi7exe\DarumaFrameWork.xml, 1)
+26/06/2018-08:55:29:849:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+26/06/2018-08:55:29:853:			<< fnTransacaoVenda_TEF_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:29:859:			>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Desktop\DarumaFramework_NFCe_Delphi7exe\DarumaFrameWork.xml, 1)
+26/06/2018-08:55:29:882:				>> fnXML_START_DefinirProduto(NFCE)
+26/06/2018-08:55:29:887:				<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+26/06/2018-08:55:29:897:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+26/06/2018-08:55:29:902:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:29:916:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+26/06/2018-08:55:29:921:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:29:926:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+26/06/2018-08:55:29:931:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:30:007:		<< fnEfetuarPagamentoTEF_NFCE - RETORNO NUMERO: 1
+26/06/2018-08:55:30:022:	<< aCFEfetuarPagamento_NFCe_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:30:038:	-----------------------------------------------------
+
+26/06/2018-08:55:37:016:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+26/06/2018-08:55:37:021:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:37:324:			## Retorno da funcao tCFEncerrar_GNE = '1'
+26/06/2018-08:55:37:337:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpPK, )
+26/06/2018-08:55:37:350:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:37:363:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCO, )
+26/06/2018-08:55:37:376:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:37:396:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCK, )
+26/06/2018-08:55:37:411:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:37:428:			## Leitura do arquivo realizada com sucesso! Arquivo = [C:\Users\godgc\Desktop\DarumaFramework_NFCe_Delphi7exe\documentosEnvio.xml]
+26/06/2018-08:55:37:445:		>> fnEnviarNF_WS_Daruma(<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000021000291209" versao="3.10"><ide><cUF>43</cUF><cNF>00029120</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>2</nNF><dhEmi>2018-06-26T08:55:37-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>9</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><dest><CPF>12312312314</CPF><xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome><enderDest><xLgr>Av. Shishima Hifumi</xLgr><nro>2911</nro><xBairro>Urbanova</xBairro><cMun>3549904</cMun><xMun>São José dos Campos</xMun><UF>SP</UF><CEP>12244000</CEP></enderDest><indIEDest>9</indIEDest></dest><det nItem='1'><prod><cProd>7896230301146</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>1.0000</qCom><vUnCom>0.10</vUnCom><vProd>0.10</vProd><cEANTrib> </cEANTrib><uTrib>UN</uTrib><qTrib>1.0000</qTrib><vUnTrib>0.10</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>0.10</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>0.10</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>0.10</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>0.10</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>03</tPag><vPag>0.10</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>011753</cAut></card></pag><infAdic><infCpl>Obrigado e volte sempre!!VENDA CREDITO A VISTADEMOCARD ************1111POS:03876463 DOC:004704 AUTORIZ:011753VALOR FINAL: R$ 0,10</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000021000291209&nVersao=100&tpAmb=2&cDest=12312312314&dhEmi=323031382d30362d32365430383a35353a33372d30333a3030&vNF=0.10&vICMS=0.00&digVal=6f436e504d492b664d74557a714b534f766649386d7a393676736b3d&cIdToken=000001&cHashQRCode=07923240226F364AEACCDA7462C1611235C9B75B]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , , , 1, 0, )
+26/06/2018-08:55:37:457:			## Enviando ao servidor NFCe ...
+26/06/2018-08:55:37:466:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\TipoAmbiente, )
+26/06/2018-08:55:37:475:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:37:484:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\PathXMLRetorno, )
+26/06/2018-08:55:37:493:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:37:502:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\HistoricoXML, )
+26/06/2018-08:55:37:511:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:37:517:			## URL do servidor = 'https://simula.invoicy.com.br/awsrecepcaonfce.aspx'
+26/06/2018-08:55:37:523:			>> EnviarNF_WS_Daruma(https://simula.invoicy.com.br/awsrecepcaonfce.aspx, <NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000021000291209" versao="3.10"><ide><cUF>43</cUF><cNF>00029120</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>2</nNF><dhEmi>2018-06-26T08:55:37-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>9</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><dest><CPF>12312312314</CPF><xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome><enderDest><xLgr>Av. Shishima Hifumi</xLgr><nro>2911</nro><xBairro>Urbanova</xBairro><cMun>3549904</cMun><xMun>São José dos Campos</xMun><UF>SP</UF><CEP>12244000</CEP></enderDest><indIEDest>9</indIEDest></dest><det nItem='1'><prod><cProd>7896230301146</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>1.0000</qCom><vUnCom>0.10</vUnCom><vProd>0.10</vProd><cEANTrib> </cEANTrib><uTrib>UN</uTrib><qTrib>1.0000</qTrib><vUnTrib>0.10</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>0.10</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>0.10</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>0.10</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>0.10</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>03</tPag><vPag>0.10</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>011753</cAut></card></pag><infAdic><infCpl>Obrigado e volte sempre!!VENDA CREDITO A VISTADEMOCARD ************1111POS:03876463 DOC:004704 AUTORIZ:011753VALOR FINAL: R$ 0,10</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000021000291209&nVersao=100&tpAmb=2&cDest=12312312314&dhEmi=323031382d30362d32365430383a35353a33372d30333a3030&vNF=0.10&vICMS=0.00&digVal=6f436e504d492b664d74557a714b534f766649386d7a393676736b3d&cIdToken=000001&cHashQRCode=07923240226F364AEACCDA7462C1611235C9B75B]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , 11.19.24, , , 1, 3, , 0, 0, 10)
+26/06/2018-08:55:37:531:				 # WS_DarumaFramework INICIADA!
+26/06/2018-08:55:38:842:				 # WS_DarumaFramework DESCARREGADA - RETORNO NUMERO: 1
+26/06/2018-08:55:38:858:			<< EnviarNF_WS_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:38:872:			## Retorno da funcao = '1'
+26/06/2018-08:55:38:888:				(1) => <DocModelo>65</DocModelo><DocNumero>2</DocNumero><DocSerie>1</DocSerie><DocChaAcesso /><DocProtocolo>143134899610585</DocProtocolo><DocEvenSeq>0</DocEvenSeq><DocEveTp>0</DocEveTp><DocEveId /><LinkXML>https://simula.invoicy.com.br/hnuc005.aspx?QpWNO3FZd42yW/Ssh1225z0CNEQUQViTNYIWFEk3uRQ=</LinkXML><Situacao><SitCodigo>100</SitCodigo><SitDescricao>Autorizado o uso da NFC-e</SitDescricao></Situacao>
+26/06/2018-08:55:38:906:				(2) => Resposta WS = 100 Autorizado o uso da NFC-
+26/06/2018-08:55:38:923:			===================== Resposta Auditada =====================
+26/06/2018-08:55:38:938:		<< fnEnviarNF_WS_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:39:480:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+26/06/2018-08:55:39:487:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:39:494:		>> fnConfirmarTransacao_TEF_Daruma(, 18062608552908552910838, VISANET, 000)
+26/06/2018-08:55:39:502:			>> fnConfirmarTransacao(CNF, , 18062608552908552910838, VISANET, 000)
+26/06/2018-08:55:39:509:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 4)
+26/06/2018-08:55:39:515:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:39:527:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+26/06/2018-08:55:39:758:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:39:764:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+26/06/2018-08:55:39:770:					>> fnValidarFinal_999_999(7, MapaBase)
+26/06/2018-08:55:39:777:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+26/06/2018-08:55:39:783:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+26/06/2018-08:55:39:789:				>> fnXML_AlterarValor(TEF\NumeroSessao, 100778, C:\Users\godgc\Desktop\DarumaFramework_NFCe_Delphi7exe\DarumaFrameWork.xml, 1)
+26/06/2018-08:55:39:825:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+26/06/2018-08:55:39:832:			<< fnConfirmarTransacao - RETORNO NUMERO: 1
+26/06/2018-08:55:39:839:		<< fnConfirmarTransacao_TEF_Daruma - RETORNO NUMERO: 1
+26/06/2018-08:55:39:845:		>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Desktop\DarumaFramework_NFCe_Delphi7exe\DarumaFrameWork.xml, 1)
+26/06/2018-08:55:39:872:			>> fnXML_START_DefinirProduto(NFCE)
+26/06/2018-08:55:39:878:			<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+26/06/2018-08:55:39:890:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+26/06/2018-08:55:39:896:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:08:52:900:			>> fnDefinirProduto_Daruma(TEF)
+27/06/2018-18:08:52:905:				# Inicializar Conformidade
+27/06/2018-18:08:52:910:				# Conformidade de Status STS iniciado
+27/06/2018-18:08:52:915:				# Conformidade de Confirmação da Ultima Transação CNF iniciado
+27/06/2018-18:08:52:920:				# Conformidade de Desfazer a Ultima Transação NCN iniciado
+27/06/2018-18:08:52:926:				# Conformidade de Requisição de Transação de Venda CRT iniciado
+27/06/2018-18:08:52:931:				# Conformidade de Resposta de Transação de Venda CRT iniciado
+27/06/2018-18:08:52:936:				# Conformidade de Requisição de Transação de Administrativa ADM iniciado
+27/06/2018-18:08:52:941:				# Conformidade de Resposta de Transação de Administrativa ADM iniciado
+27/06/2018-18:08:52:946:				# Conformidade de Requisição de Transação de Cancelamento CNC iniciado
+27/06/2018-18:08:52:952:				# Conformidade de Resposta de Transação de Cancelamento CNC iniciado
+27/06/2018-18:08:52:957:				# Conformidade de Requisição de Captura de Dado CDP iniciado
+27/06/2018-18:08:52:962:				# Conformidade de Resposta de Captura de Dado CDP iniciado
+27/06/2018-18:08:52:967:			<< fnDefinirProduto_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:08:52:973:			>> fnTransacaoVenda_TEF_Daruma(3, 500, , , , , , , , , , )
+27/06/2018-18:08:52:978:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 1)
+27/06/2018-18:08:52:983:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:08:52:993:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-18:08:53:075:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:08:53:080:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-18:08:53:086:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-18:08:53:091:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:08:53:097:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:08:53:102:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 210)
+27/06/2018-18:09:16:854:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:16:864:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 1)
+27/06/2018-18:09:16:872:					>> fnValidarFinal_999_999(1, MapaBase)
+27/06/2018-18:09:16:880:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:09:16:888:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:16:897:				>> fnXML_AlterarValor(TEF\NSU, 18091621792, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:09:16:923:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:09:16:929:				>> fnXML_AlterarValor(TEF\RedeAdquirente, 000, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:09:16:953:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:09:16:959:				>> fnXML_AlterarValor(TEF\NumeroSessao, 100788, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:09:16:985:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:09:16:991:			<< fnTransacaoVenda_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:17:001:			>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:09:17:026:				>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-18:09:17:031:				<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-18:09:17:041:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:09:17:046:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:17:059:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:09:17:064:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:17:070:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:09:17:075:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:17:085:		<< fnEfetuarPagamentoTEF_NFCE - RETORNO NUMERO: 1
+27/06/2018-18:09:17:090:	<< aCFEfetuarPagamento_NFCe_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:17:096:	-----------------------------------------------------
+
+27/06/2018-18:09:19:070:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-18:09:19:077:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:19:272:			## Retorno da funcao tCFEncerrar_GNE = '1'
+27/06/2018-18:09:19:279:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpPK, )
+27/06/2018-18:09:19:285:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:19:291:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCO, )
+27/06/2018-18:09:19:298:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:19:304:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCK, )
+27/06/2018-18:09:19:309:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:19:316:			## Leitura do arquivo realizada com sucesso! Arquivo = [C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\documentosEnvio.xml]
+27/06/2018-18:09:19:322:		>> fnEnviarNF_WS_Daruma(<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000031000102896" versao="3.10"><ide><cUF>43</cUF><cNF>00010289</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>3</nNF><dhEmi>2018-06-27T18:09:19-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>6</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>5</vUnCom><vProd>5.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>5</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>5.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>5.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>5.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>032525</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************2222POS:03876463 DOC:015953 AUTORIZ:032525VALOR FINAL: R$ 5,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000031000102896&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375431383a30393a31392d30333a3030&vNF=5.00&vICMS=0.00&digVal=77396d354e37652f55652b6a4154333253354873667342463373593d&cIdToken=000001&cHashQRCode=30F0543FAD66D2F13F1D7094D5C4DDA955C88372]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , , , 1, 0, )
+27/06/2018-18:09:19:329:			## Enviando ao servidor NFCe ...
+27/06/2018-18:09:19:336:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\TipoAmbiente, )
+27/06/2018-18:09:19:343:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:19:349:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\PathXMLRetorno, )
+27/06/2018-18:09:19:356:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:19:363:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\HistoricoXML, )
+27/06/2018-18:09:19:369:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:19:377:			## URL do servidor = 'https://simula.invoicy.com.br/awsrecepcaonfce.aspx'
+27/06/2018-18:09:19:385:			>> EnviarNF_WS_Daruma(https://simula.invoicy.com.br/awsrecepcaonfce.aspx, <NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000031000102896" versao="3.10"><ide><cUF>43</cUF><cNF>00010289</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>3</nNF><dhEmi>2018-06-27T18:09:19-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>6</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>5</vUnCom><vProd>5.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>5</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>5.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>5.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>5.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>032525</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************2222POS:03876463 DOC:015953 AUTORIZ:032525VALOR FINAL: R$ 5,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000031000102896&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375431383a30393a31392d30333a3030&vNF=5.00&vICMS=0.00&digVal=77396d354e37652f55652b6a4154333253354873667342463373593d&cIdToken=000001&cHashQRCode=30F0543FAD66D2F13F1D7094D5C4DDA955C88372]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , 11.19.24, , , 1, 3, , 0, 0, 10)
+27/06/2018-18:09:19:394:				 # WS_DarumaFramework INICIADA!
+27/06/2018-18:09:21:253:				 # WS_DarumaFramework DESCARREGADA - RETORNO NUMERO: 1
+27/06/2018-18:09:21:260:			<< EnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:21:267:			## Retorno da funcao = '1'
+27/06/2018-18:09:21:274:				(1) => <DocModelo>65</DocModelo><DocNumero>3</DocNumero><DocSerie>1</DocSerie><DocChaAcesso /><DocProtocolo>143137454947902</DocProtocolo><DocEvenSeq>0</DocEvenSeq><DocEveTp>0</DocEveTp><DocEveId /><LinkXML>https://simula.invoicy.com.br/hnuc005.aspx?/qAB1trMQ+LR9/kT8d4mmsB9JrMbzxwWtviJFY53UaI=</LinkXML><Situacao><SitCodigo>100</SitCodigo><SitDescricao>Autorizado o uso da NFC-e</SitDescricao></Situacao>
+27/06/2018-18:09:21:281:				(2) => Resposta WS = 100 Autorizado o uso da NFC-
+27/06/2018-18:09:21:288:			===================== Resposta Auditada =====================
+27/06/2018-18:09:21:294:		<< fnEnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:21:649:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-18:09:21:656:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:21:662:		>> fnConfirmarTransacao_TEF_Daruma(, 18062718091618091621792, VISANET, 000)
+27/06/2018-18:09:21:668:			>> fnConfirmarTransacao(CNF, , 18062718091618091621792, VISANET, 000)
+27/06/2018-18:09:21:675:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 4)
+27/06/2018-18:09:21:683:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:21:694:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-18:09:21:895:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:21:903:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-18:09:21:910:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-18:09:21:918:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:09:21:925:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:21:934:				>> fnXML_AlterarValor(TEF\NumeroSessao, 100848, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:09:21:972:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:09:21:978:			<< fnConfirmarTransacao - RETORNO NUMERO: 1
+27/06/2018-18:09:21:984:		<< fnConfirmarTransacao_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:21:991:		>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:09:22:023:			>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-18:09:22:030:			<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-18:09:22:043:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-18:09:22:050:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:49:742:			>> fnTransacaoVenda_TEF_Daruma(4, 100, , , , , , , , , , )
+27/06/2018-18:09:49:749:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 1)
+27/06/2018-18:09:49:756:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:49:769:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-18:09:49:979:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:49:984:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-18:09:49:990:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-18:09:49:996:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:09:50:001:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:50:007:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 210)
+27/06/2018-18:09:59:402:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:59:413:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 1)
+27/06/2018-18:09:59:419:					>> fnValidarFinal_999_999(1, MapaBase)
+27/06/2018-18:09:59:428:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:09:59:435:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:59:443:				>> fnXML_AlterarValor(TEF\NSU, 18095926742, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:09:59:475:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:09:59:480:				>> fnXML_AlterarValor(TEF\RedeAdquirente, 000, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:09:59:505:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:09:59:511:				>> fnXML_AlterarValor(TEF\NumeroSessao, 100875, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:09:59:536:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:09:59:542:			<< fnTransacaoVenda_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:59:548:			>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:09:59:573:				>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-18:09:59:578:				<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-18:09:59:589:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:09:59:595:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:59:606:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:09:59:612:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:59:617:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:09:59:623:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:09:59:633:		<< fnEfetuarPagamentoTEF_NFCE - RETORNO NUMERO: 1
+27/06/2018-18:09:59:638:	<< aCFEfetuarPagamento_NFCe_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:09:59:643:	-----------------------------------------------------
+
+27/06/2018-18:10:01:526:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-18:10:01:532:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:10:01:539:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos1.imp, 1)
+27/06/2018-18:10:01:545:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:10:01:777:			## Retorno da funcao tCFEncerrar_GNE = '1'
+27/06/2018-18:10:01:783:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpPK, )
+27/06/2018-18:10:01:788:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:10:01:794:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCO, )
+27/06/2018-18:10:01:800:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:10:01:806:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCK, )
+27/06/2018-18:10:01:812:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:10:01:818:			## Leitura do arquivo realizada com sucesso! Arquivo = [C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\documentosEnvio.xml]
+27/06/2018-18:10:01:824:		>> fnEnviarNF_WS_Daruma(<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000041000144685" versao="3.10"><ide><cUF>43</cUF><cNF>00014468</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>4</nNF><dhEmi>2018-06-27T18:10:01-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>5</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>1</vUnCom><vProd>1.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>1</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>1.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>1.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>1.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>1.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>1.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>010394</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000041000144685&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375431383a31303a30312d30333a3030&vNF=1.00&vICMS=0.00&digVal=592b575642526c6530366e39735844532f4a2f5274395761314a383d&cIdToken=000001&cHashQRCode=83CA581DC3A05F9245326A1813E3C1F448C4AE31]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , , , 1, 0, )
+27/06/2018-18:10:01:830:			## Enviando ao servidor NFCe ...
+27/06/2018-18:10:01:837:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\TipoAmbiente, )
+27/06/2018-18:10:01:843:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:10:01:849:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\PathXMLRetorno, )
+27/06/2018-18:10:01:856:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:10:01:863:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\HistoricoXML, )
+27/06/2018-18:10:01:869:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:10:01:876:			## URL do servidor = 'https://simula.invoicy.com.br/awsrecepcaonfce.aspx'
+27/06/2018-18:10:01:883:			>> EnviarNF_WS_Daruma(https://simula.invoicy.com.br/awsrecepcaonfce.aspx, <NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000041000144685" versao="3.10"><ide><cUF>43</cUF><cNF>00014468</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>4</nNF><dhEmi>2018-06-27T18:10:01-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>5</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>1</vUnCom><vProd>1.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>1</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>1.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>1.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>1.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>1.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>1.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>010394</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000041000144685&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375431383a31303a30312d30333a3030&vNF=1.00&vICMS=0.00&digVal=592b575642526c6530366e39735844532f4a2f5274395761314a383d&cIdToken=000001&cHashQRCode=83CA581DC3A05F9245326A1813E3C1F448C4AE31]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , 11.19.24, , , 1, 3, , 0, 0, 10)
+27/06/2018-18:10:01:893:				 # WS_DarumaFramework INICIADA!
+27/06/2018-18:10:03:676:				 # WS_DarumaFramework DESCARREGADA - RETORNO NUMERO: 1
+27/06/2018-18:10:03:683:			<< EnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:10:03:691:			## Retorno da funcao = '1'
+27/06/2018-18:10:03:697:				(1) => <DocModelo>65</DocModelo><DocNumero>4</DocNumero><DocSerie>1</DocSerie><DocChaAcesso /><DocProtocolo>143138403695373</DocProtocolo><DocEvenSeq>0</DocEvenSeq><DocEveTp>0</DocEveTp><DocEveId /><LinkXML>https://simula.invoicy.com.br/hnuc005.aspx?/qAB1trMQ+LR9/kT8d4mmlaAq2vSB+MYEJMaD5ws+xM=</LinkXML><Situacao><SitCodigo>100</SitCodigo><SitDescricao>Autorizado o uso da NFC-e</SitDescricao></Situacao>
+27/06/2018-18:10:03:703:				(2) => Resposta WS = 100 Autorizado o uso da NFC-
+27/06/2018-18:10:03:709:			===================== Resposta Auditada =====================
+27/06/2018-18:10:03:716:		<< fnEnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:10:03:989:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos1.imp, 1)
+27/06/2018-18:10:03:996:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:10:04:002:		>> fnConfirmarTransacao_TEF_Daruma(, 18062718095918095926742, VISANET, 000)
+27/06/2018-18:10:04:009:			>> fnConfirmarTransacao(CNF, , 18062718095918095926742, VISANET, 000)
+27/06/2018-18:10:04:016:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 4)
+27/06/2018-18:10:04:022:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:10:04:035:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-18:10:04:193:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:10:04:201:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-18:10:04:208:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-18:10:04:216:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:10:04:223:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:10:04:230:				>> fnXML_AlterarValor(TEF\NumeroSessao, 100957, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:10:04:258:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:10:04:264:			<< fnConfirmarTransacao - RETORNO NUMERO: 1
+27/06/2018-18:10:04:271:		<< fnConfirmarTransacao_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:10:04:278:		>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:10:04:316:			>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-18:10:04:322:			<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-18:10:04:334:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-18:10:04:340:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:47:330:			>> fnDefinirProduto_Daruma(TEF)
+27/06/2018-18:13:47:335:				# Inicializar Conformidade
+27/06/2018-18:13:47:341:				# Conformidade de Status STS iniciado
+27/06/2018-18:13:47:346:				# Conformidade de Confirmação da Ultima Transação CNF iniciado
+27/06/2018-18:13:47:352:				# Conformidade de Desfazer a Ultima Transação NCN iniciado
+27/06/2018-18:13:47:357:				# Conformidade de Requisição de Transação de Venda CRT iniciado
+27/06/2018-18:13:47:363:				# Conformidade de Resposta de Transação de Venda CRT iniciado
+27/06/2018-18:13:47:367:				# Conformidade de Requisição de Transação de Administrativa ADM iniciado
+27/06/2018-18:13:47:373:				# Conformidade de Resposta de Transação de Administrativa ADM iniciado
+27/06/2018-18:13:47:378:				# Conformidade de Requisição de Transação de Cancelamento CNC iniciado
+27/06/2018-18:13:47:384:				# Conformidade de Resposta de Transação de Cancelamento CNC iniciado
+27/06/2018-18:13:47:389:				# Conformidade de Requisição de Captura de Dado CDP iniciado
+27/06/2018-18:13:47:395:				# Conformidade de Resposta de Captura de Dado CDP iniciado
+27/06/2018-18:13:47:400:			<< fnDefinirProduto_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:47:405:			>> fnTransacaoVenda_TEF_Daruma(5, 600, , , , , , , , , , )
+27/06/2018-18:13:47:411:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 1)
+27/06/2018-18:13:47:416:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:47:426:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-18:13:47:543:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:47:549:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-18:13:47:554:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-18:13:47:566:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:13:47:572:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:47:577:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 210)
+27/06/2018-18:13:56:007:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:56:017:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 1)
+27/06/2018-18:13:56:026:					>> fnValidarFinal_999_999(1, MapaBase)
+27/06/2018-18:13:56:031:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:13:56:039:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:56:046:				>> fnXML_AlterarValor(TEF\NSU, 18135529469, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:13:56:078:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:13:56:083:				>> fnXML_AlterarValor(TEF\RedeAdquirente, 000, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:13:56:109:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:13:56:114:				>> fnXML_AlterarValor(TEF\NumeroSessao, 100967, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:13:56:141:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:13:56:146:			<< fnTransacaoVenda_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:56:152:			>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:13:56:182:				>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-18:13:56:188:				<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-18:13:56:198:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:13:56:203:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:56:247:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:13:56:253:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:56:257:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:13:56:263:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:56:274:		<< fnEfetuarPagamentoTEF_NFCE - RETORNO NUMERO: 1
+27/06/2018-18:13:56:279:	<< aCFEfetuarPagamento_NFCe_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:56:284:	-----------------------------------------------------
+
+27/06/2018-18:13:57:714:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-18:13:57:721:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:57:726:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos1.imp, 1)
+27/06/2018-18:13:57:731:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:57:737:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos2.imp, 1)
+27/06/2018-18:13:57:744:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:57:953:			## Retorno da funcao tCFEncerrar_GNE = '1'
+27/06/2018-18:13:57:960:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpPK, )
+27/06/2018-18:13:57:965:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:57:971:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCO, )
+27/06/2018-18:13:57:977:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:57:983:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCK, )
+27/06/2018-18:13:57:990:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:57:996:			## Leitura do arquivo realizada com sucesso! Arquivo = [C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\documentosEnvio.xml]
+27/06/2018-18:13:58:002:		>> fnEnviarNF_WS_Daruma(<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000051000288854" versao="3.10"><ide><cUF>43</cUF><cNF>00028885</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>5</nNF><dhEmi>2018-06-27T18:13:57-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>4</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>6</vUnCom><vProd>6.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>6</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>6.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>6.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>6.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>6.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>6.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>027984</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:010433 AUTORIZ:027984VALOR FINAL: R$ 6,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000051000288854&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375431383a31333a35372d30333a3030&vNF=6.00&vICMS=0.00&digVal=504643694274634769757a504c75584b3176624468576d3769446b3d&cIdToken=000001&cHashQRCode=7059BBFFDFA75EBAF6E525684C4E01B3D48D953F]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , , , 1, 0, )
+27/06/2018-18:13:58:009:			## Enviando ao servidor NFCe ...
+27/06/2018-18:13:58:016:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\TipoAmbiente, )
+27/06/2018-18:13:58:023:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:58:029:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\PathXMLRetorno, )
+27/06/2018-18:13:58:037:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:58:044:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\HistoricoXML, )
+27/06/2018-18:13:58:050:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:58:057:			## URL do servidor = 'https://simula.invoicy.com.br/awsrecepcaonfce.aspx'
+27/06/2018-18:13:58:064:			>> EnviarNF_WS_Daruma(https://simula.invoicy.com.br/awsrecepcaonfce.aspx, <NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000051000288854" versao="3.10"><ide><cUF>43</cUF><cNF>00028885</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>5</nNF><dhEmi>2018-06-27T18:13:57-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>4</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>6</vUnCom><vProd>6.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>6</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>6.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>6.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>6.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>6.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>6.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>027984</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:010433 AUTORIZ:027984VALOR FINAL: R$ 6,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000051000288854&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375431383a31333a35372d30333a3030&vNF=6.00&vICMS=0.00&digVal=504643694274634769757a504c75584b3176624468576d3769446b3d&cIdToken=000001&cHashQRCode=7059BBFFDFA75EBAF6E525684C4E01B3D48D953F]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , 11.19.24, , , 1, 3, , 0, 0, 10)
+27/06/2018-18:13:58:073:				 # WS_DarumaFramework INICIADA!
+27/06/2018-18:13:59:542:				 # WS_DarumaFramework DESCARREGADA - RETORNO NUMERO: 1
+27/06/2018-18:13:59:550:			<< EnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:59:557:			## Retorno da funcao = '1'
+27/06/2018-18:13:59:563:				(1) => <DocModelo>65</DocModelo><DocNumero>5</DocNumero><DocSerie>1</DocSerie><DocChaAcesso /><DocProtocolo>143131366983027</DocProtocolo><DocEvenSeq>0</DocEvenSeq><DocEveTp>0</DocEveTp><DocEveId /><LinkXML>https://simula.invoicy.com.br/hnuc005.aspx?/qAB1trMQ+LR9/kT8d4mmtFz0Eq0gnLorGXwjzAkR3M=</LinkXML><Situacao><SitCodigo>100</SitCodigo><SitDescricao>Autorizado o uso da NFC-e</SitDescricao></Situacao>
+27/06/2018-18:13:59:570:				(2) => Resposta WS = 100 Autorizado o uso da NFC-
+27/06/2018-18:13:59:581:			===================== Resposta Auditada =====================
+27/06/2018-18:13:59:589:		<< fnEnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:13:59:910:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos2.imp, 1)
+27/06/2018-18:13:59:916:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:59:923:		>> fnConfirmarTransacao_TEF_Daruma(, 18062718135518135529469, VISANET, 000)
+27/06/2018-18:13:59:931:			>> fnConfirmarTransacao(CNF, , 18062718135518135529469, VISANET, 000)
+27/06/2018-18:13:59:939:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 4)
+27/06/2018-18:13:59:946:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:13:59:958:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-18:14:00:047:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:14:00:054:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-18:14:00:062:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-18:14:00:070:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:14:00:076:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:14:00:084:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101027, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:14:00:121:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:14:00:128:			<< fnConfirmarTransacao - RETORNO NUMERO: 1
+27/06/2018-18:14:00:135:		<< fnConfirmarTransacao_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:14:00:142:		>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:14:00:204:			>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-18:14:00:211:			<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-18:14:00:224:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-18:14:00:231:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:01:323:			>> fnDefinirProduto_Daruma(TEF)
+27/06/2018-18:16:01:329:				# Inicializar Conformidade
+27/06/2018-18:16:01:334:				# Conformidade de Status STS iniciado
+27/06/2018-18:16:01:339:				# Conformidade de Confirmação da Ultima Transação CNF iniciado
+27/06/2018-18:16:01:346:				# Conformidade de Desfazer a Ultima Transação NCN iniciado
+27/06/2018-18:16:01:352:				# Conformidade de Requisição de Transação de Venda CRT iniciado
+27/06/2018-18:16:01:357:				# Conformidade de Resposta de Transação de Venda CRT iniciado
+27/06/2018-18:16:01:364:				# Conformidade de Requisição de Transação de Administrativa ADM iniciado
+27/06/2018-18:16:01:370:				# Conformidade de Resposta de Transação de Administrativa ADM iniciado
+27/06/2018-18:16:01:374:				# Conformidade de Requisição de Transação de Cancelamento CNC iniciado
+27/06/2018-18:16:01:380:				# Conformidade de Resposta de Transação de Cancelamento CNC iniciado
+27/06/2018-18:16:01:386:				# Conformidade de Requisição de Captura de Dado CDP iniciado
+27/06/2018-18:16:01:393:				# Conformidade de Resposta de Captura de Dado CDP iniciado
+27/06/2018-18:16:01:399:			<< fnDefinirProduto_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:01:404:			>> fnTransacaoVenda_TEF_Daruma(6, 500, , , , , , , , , , )
+27/06/2018-18:16:01:411:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 1)
+27/06/2018-18:16:01:415:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:01:426:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-18:16:01:665:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:01:670:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-18:16:01:677:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-18:16:01:688:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:16:01:693:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:01:699:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 210)
+27/06/2018-18:16:12:027:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:12:036:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 1)
+27/06/2018-18:16:12:045:					>> fnValidarFinal_999_999(1, MapaBase)
+27/06/2018-18:16:12:052:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:16:12:060:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:12:069:				>> fnXML_AlterarValor(TEF\NSU, 18161126878, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:16:12:094:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:16:12:100:				>> fnXML_AlterarValor(TEF\RedeAdquirente, 000, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:16:12:132:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:16:12:138:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101037, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:16:12:163:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:16:12:169:			<< fnTransacaoVenda_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:12:176:			>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:16:12:201:				>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-18:16:12:208:				<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-18:16:12:219:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:16:12:225:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:12:238:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:16:12:244:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:12:250:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-18:16:12:257:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:12:269:		<< fnEfetuarPagamentoTEF_NFCE - RETORNO NUMERO: 1
+27/06/2018-18:16:12:274:	<< aCFEfetuarPagamento_NFCe_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:12:279:	-----------------------------------------------------
+
+27/06/2018-18:16:15:634:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-18:16:15:642:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:15:648:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos1.imp, 1)
+27/06/2018-18:16:15:670:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:15:677:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos2.imp, 1)
+27/06/2018-18:16:15:700:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:15:708:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos3.imp, 1)
+27/06/2018-18:16:15:715:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:15:941:			## Retorno da funcao tCFEncerrar_GNE = '1'
+27/06/2018-18:16:15:948:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpPK, )
+27/06/2018-18:16:15:956:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:15:963:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCO, )
+27/06/2018-18:16:15:970:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:15:977:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCK, )
+27/06/2018-18:16:15:984:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:15:991:			## Leitura do arquivo realizada com sucesso! Arquivo = [C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\documentosEnvio.xml]
+27/06/2018-18:16:15:998:		>> fnEnviarNF_WS_Daruma(<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000061000108802" versao="3.10"><ide><cUF>43</cUF><cNF>00010880</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>6</nNF><dhEmi>2018-06-27T18:16:15-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>2</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>5</vUnCom><vProd>5.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>5</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>5.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>5.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>5.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>031219</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:010433 AUTORIZ:027984VALOR FINAL: R$ 6,00VENDA CREDITO A VISTADEMOCARD ************2222POS:03876463 DOC:015166 AUTORIZ:031219VALOR FINAL: R$ 5,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000061000108802&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375431383a31363a31352d30333a3030&vNF=5.00&vICMS=0.00&digVal=2f49616b684e454e74357a7054523734545a365849785854515a453d&cIdToken=000001&cHashQRCode=F1163FE6A9160918050CF13A5FAEE48D4CE3C90E]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , , , 1, 0, )
+27/06/2018-18:16:16:005:			## Enviando ao servidor NFCe ...
+27/06/2018-18:16:16:013:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\TipoAmbiente, )
+27/06/2018-18:16:16:019:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:16:026:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\PathXMLRetorno, )
+27/06/2018-18:16:16:032:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:16:040:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\HistoricoXML, )
+27/06/2018-18:16:16:048:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:16:056:			## URL do servidor = 'https://simula.invoicy.com.br/awsrecepcaonfce.aspx'
+27/06/2018-18:16:16:063:			>> EnviarNF_WS_Daruma(https://simula.invoicy.com.br/awsrecepcaonfce.aspx, <NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000061000108802" versao="3.10"><ide><cUF>43</cUF><cNF>00010880</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>6</nNF><dhEmi>2018-06-27T18:16:15-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>2</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>5</vUnCom><vProd>5.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>5</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>5.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>5.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>5.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>031219</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:010433 AUTORIZ:027984VALOR FINAL: R$ 6,00VENDA CREDITO A VISTADEMOCARD ************2222POS:03876463 DOC:015166 AUTORIZ:031219VALOR FINAL: R$ 5,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000061000108802&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375431383a31363a31352d30333a3030&vNF=5.00&vICMS=0.00&digVal=2f49616b684e454e74357a7054523734545a365849785854515a453d&cIdToken=000001&cHashQRCode=F1163FE6A9160918050CF13A5FAEE48D4CE3C90E]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , 11.19.24, , , 1, 3, , 0, 0, 10)
+27/06/2018-18:16:16:074:				 # WS_DarumaFramework INICIADA!
+27/06/2018-18:16:17:700:				 # WS_DarumaFramework DESCARREGADA - RETORNO NUMERO: 1
+27/06/2018-18:16:17:707:			<< EnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:17:714:			## Retorno da funcao = '1'
+27/06/2018-18:16:17:721:				(1) => <DocModelo>65</DocModelo><DocNumero>6</DocNumero><DocSerie>1</DocSerie><DocChaAcesso /><DocProtocolo>143138755003944</DocProtocolo><DocEvenSeq>0</DocEvenSeq><DocEveTp>0</DocEveTp><DocEveId /><LinkXML>https://simula.invoicy.com.br/hnuc005.aspx?/qAB1trMQ+LR9/kT8d4mmsB9JrMbzxwWtviJFY53UaI=</LinkXML><Situacao><SitCodigo>100</SitCodigo><SitDescricao>Autorizado o uso da NFC-e</SitDescricao></Situacao>
+27/06/2018-18:16:17:728:				(2) => Resposta WS = 100 Autorizado o uso da NFC-
+27/06/2018-18:16:17:734:			===================== Resposta Auditada =====================
+27/06/2018-18:16:17:741:		<< fnEnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:18:074:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos3.imp, 1)
+27/06/2018-18:16:18:081:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:18:087:		>> fnConfirmarTransacao_TEF_Daruma(, 18062718161118161126878, VISANET, 000)
+27/06/2018-18:16:18:093:			>> fnConfirmarTransacao(CNF, , 18062718161118161126878, VISANET, 000)
+27/06/2018-18:16:18:102:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 4)
+27/06/2018-18:16:18:109:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:18:153:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-18:16:18:321:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:18:328:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-18:16:18:337:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-18:16:18:346:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-18:16:18:354:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-18:16:18:361:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101097, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:16:18:427:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-18:16:18:436:			<< fnConfirmarTransacao - RETORNO NUMERO: 1
+27/06/2018-18:16:18:443:		<< fnConfirmarTransacao_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-18:16:18:449:		>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Downloads\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-18:16:18:516:			>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-18:16:18:524:			<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-18:16:18:536:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-18:16:18:545:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:16:20:723:			>> fnDefinirProduto_Daruma(TEF)
+27/06/2018-19:16:20:729:				# Inicializar Conformidade
+27/06/2018-19:16:20:734:				# Conformidade de Status STS iniciado
+27/06/2018-19:16:20:741:				# Conformidade de Confirmação da Ultima Transação CNF iniciado
+27/06/2018-19:16:20:746:				# Conformidade de Desfazer a Ultima Transação NCN iniciado
+27/06/2018-19:16:20:751:				# Conformidade de Requisição de Transação de Venda CRT iniciado
+27/06/2018-19:16:20:756:				# Conformidade de Resposta de Transação de Venda CRT iniciado
+27/06/2018-19:16:20:762:				# Conformidade de Requisição de Transação de Administrativa ADM iniciado
+27/06/2018-19:16:20:767:				# Conformidade de Resposta de Transação de Administrativa ADM iniciado
+27/06/2018-19:16:20:772:				# Conformidade de Requisição de Transação de Cancelamento CNC iniciado
+27/06/2018-19:16:20:777:				# Conformidade de Resposta de Transação de Cancelamento CNC iniciado
+27/06/2018-19:16:20:782:				# Conformidade de Requisição de Captura de Dado CDP iniciado
+27/06/2018-19:16:20:787:				# Conformidade de Resposta de Captura de Dado CDP iniciado
+27/06/2018-19:16:20:792:			<< fnDefinirProduto_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:16:20:797:			>> fnTransacaoVenda_TEF_Daruma(7, 100, , , , , , , , , , )
+27/06/2018-19:16:20:804:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 1)
+27/06/2018-19:16:20:809:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-19:16:20:835:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-19:16:36:733:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:16:36:738:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-19:16:36:742:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-19:16:36:754:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-19:16:36:760:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-19:16:36:766:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 210)
+27/06/2018-19:16:53:901:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:16:53:907:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 1)
+27/06/2018-19:16:53:915:					>> fnValidarFinal_999_999(1, MapaBase)
+27/06/2018-19:16:53:920:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-19:16:53:925:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-19:16:53:932:				>> fnXML_AlterarValor(TEF\NSU, 19165321502, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-19:16:53:951:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-19:16:53:956:				>> fnXML_AlterarValor(TEF\RedeAdquirente, 000, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-19:16:53:986:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-19:16:53:990:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101107, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-19:16:54:020:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-19:16:54:025:			<< fnTransacaoVenda_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:16:54:030:			>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-19:16:54:059:				>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-19:16:54:065:				<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-19:16:54:076:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-19:16:54:084:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:16:54:098:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-19:16:54:104:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:16:54:109:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-19:16:54:117:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:16:54:129:		<< fnEfetuarPagamentoTEF_NFCE - RETORNO NUMERO: 1
+27/06/2018-19:16:54:133:	<< aCFEfetuarPagamento_NFCe_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:16:54:139:	-----------------------------------------------------
+
+27/06/2018-19:17:01:151:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-19:17:01:189:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:17:01:195:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos1.imp, 1)
+27/06/2018-19:17:01:227:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:17:01:232:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos2.imp, 1)
+27/06/2018-19:17:01:269:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:17:01:278:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos3.imp, 1)
+27/06/2018-19:17:01:330:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:17:01:340:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos4.imp, 1)
+27/06/2018-19:17:01:351:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:17:01:555:			## Retorno da funcao tCFEncerrar_GNE = '1'
+27/06/2018-19:17:01:560:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpPK, )
+27/06/2018-19:17:01:565:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:17:01:570:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCO, )
+27/06/2018-19:17:01:575:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:17:01:581:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCK, )
+27/06/2018-19:17:01:587:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:17:01:592:			## Leitura do arquivo realizada com sucesso! Arquivo = [C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\documentosEnvio.xml]
+27/06/2018-19:17:01:598:		>> fnEnviarNF_WS_Daruma(<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000071000295251" versao="3.10"><ide><cUF>43</cUF><cNF>00029525</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>7</nNF><dhEmi>2018-06-27T19:17:01-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>1</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>1</vUnCom><vProd>1.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>1</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>1.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>1.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>1.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>1.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>1.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>010200</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************7777POS:03876463 DOC:021014 AUTORIZ:021833VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************8888POS:03876463 DOC:017070 AUTORIZ:031113VALOR FINAL: R$ 1,00VENDA CREDITO PARC.ADM.DEMOCARD ************8888POS:03876463 DOC:015733 AUTORIZ:011364POS:03876463 DOC:015733 AUTORIZ:011364VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************4844POS:03876463 DOC:015192 AUTORIZ:010200VALOR FINAL: R$ 1,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000071000295251&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375431393a31373a30312d30333a3030&vNF=1.00&vICMS=0.00&digVal=68756d5a5050466a436b58456b6b52455168784761664b77776c413d&cIdToken=000001&cHashQRCode=CC3E67B5A683FF62CD47C06F1B34476A52587C84]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , , , 1, 0, )
+27/06/2018-19:17:01:604:			## Enviando ao servidor NFCe ...
+27/06/2018-19:17:01:610:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\TipoAmbiente, )
+27/06/2018-19:17:01:615:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:17:01:622:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\PathXMLRetorno, )
+27/06/2018-19:17:01:627:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:17:01:633:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\HistoricoXML, )
+27/06/2018-19:17:01:640:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:17:01:645:			## URL do servidor = 'https://simula.invoicy.com.br/awsrecepcaonfce.aspx'
+27/06/2018-19:17:01:650:			>> EnviarNF_WS_Daruma(https://simula.invoicy.com.br/awsrecepcaonfce.aspx, <NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000071000295251" versao="3.10"><ide><cUF>43</cUF><cNF>00029525</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>7</nNF><dhEmi>2018-06-27T19:17:01-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>1</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>1</vUnCom><vProd>1.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>1</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>1.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>1.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>1.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>1.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>1.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>010200</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************7777POS:03876463 DOC:021014 AUTORIZ:021833VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************8888POS:03876463 DOC:017070 AUTORIZ:031113VALOR FINAL: R$ 1,00VENDA CREDITO PARC.ADM.DEMOCARD ************8888POS:03876463 DOC:015733 AUTORIZ:011364POS:03876463 DOC:015733 AUTORIZ:011364VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************4844POS:03876463 DOC:015192 AUTORIZ:010200VALOR FINAL: R$ 1,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000071000295251&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375431393a31373a30312d30333a3030&vNF=1.00&vICMS=0.00&digVal=68756d5a5050466a436b58456b6b52455168784761664b77776c413d&cIdToken=000001&cHashQRCode=CC3E67B5A683FF62CD47C06F1B34476A52587C84]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , 11.19.24, , , 1, 3, , 0, 0, 10)
+27/06/2018-19:17:01:657:				 # WS_DarumaFramework INICIADA!
+27/06/2018-19:17:02:852:				 # WS_DarumaFramework DESCARREGADA - RETORNO NUMERO: 1
+27/06/2018-19:17:02:857:			<< EnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:17:02:865:			## Retorno da funcao = '1'
+27/06/2018-19:17:02:871:				(1) => <DocModelo>65</DocModelo><DocNumero>7</DocNumero><DocSerie>1</DocSerie><DocChaAcesso /><DocProtocolo>143134707105050</DocProtocolo><DocEvenSeq>0</DocEvenSeq><DocEveTp>0</DocEveTp><DocEveId /><LinkXML>https://simula.invoicy.com.br/hnuc005.aspx?/qAB1trMQ+LR9/kT8d4mmtFz0Eq0gnLorGXwjzAkR3M=</LinkXML><Situacao><SitCodigo>100</SitCodigo><SitDescricao>Autorizado o uso da NFC-e</SitDescricao></Situacao>
+27/06/2018-19:17:02:877:				(2) => Resposta WS = 100 Autorizado o uso da NFC-
+27/06/2018-19:17:02:882:			===================== Resposta Auditada =====================
+27/06/2018-19:17:02:891:		<< fnEnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:17:03:189:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos4.imp, 1)
+27/06/2018-19:17:03:195:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:17:03:201:		>> fnConfirmarTransacao_TEF_Daruma(, 18062719165319165321502, VISANET, 000)
+27/06/2018-19:17:03:206:			>> fnConfirmarTransacao(CNF, , 18062719165319165321502, VISANET, 000)
+27/06/2018-19:17:03:213:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 4)
+27/06/2018-19:17:03:218:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-19:17:03:229:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-19:17:03:439:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-19:17:03:446:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-19:17:03:452:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-19:17:03:457:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-19:17:03:462:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-19:17:03:467:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101167, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-19:17:03:489:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-19:17:03:495:			<< fnConfirmarTransacao - RETORNO NUMERO: 1
+27/06/2018-19:17:03:500:		<< fnConfirmarTransacao_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-19:17:03:505:		>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-19:17:03:537:			>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-19:17:03:547:			<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-19:17:03:557:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-19:17:03:563:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:14:917:			>> fnDefinirProduto_Daruma(TEF)
+27/06/2018-22:00:14:922:				# Inicializar Conformidade
+27/06/2018-22:00:14:926:				# Conformidade de Status STS iniciado
+27/06/2018-22:00:14:931:				# Conformidade de Confirmação da Ultima Transação CNF iniciado
+27/06/2018-22:00:14:936:				# Conformidade de Desfazer a Ultima Transação NCN iniciado
+27/06/2018-22:00:14:940:				# Conformidade de Requisição de Transação de Venda CRT iniciado
+27/06/2018-22:00:14:944:				# Conformidade de Resposta de Transação de Venda CRT iniciado
+27/06/2018-22:00:14:949:				# Conformidade de Requisição de Transação de Administrativa ADM iniciado
+27/06/2018-22:00:14:954:				# Conformidade de Resposta de Transação de Administrativa ADM iniciado
+27/06/2018-22:00:14:958:				# Conformidade de Requisição de Transação de Cancelamento CNC iniciado
+27/06/2018-22:00:14:962:				# Conformidade de Resposta de Transação de Cancelamento CNC iniciado
+27/06/2018-22:00:14:967:				# Conformidade de Requisição de Captura de Dado CDP iniciado
+27/06/2018-22:00:14:972:				# Conformidade de Resposta de Captura de Dado CDP iniciado
+27/06/2018-22:00:14:976:			<< fnDefinirProduto_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:14:980:			>> fnTransacaoVenda_TEF_Daruma(8, 500, , , , , , , , , , )
+27/06/2018-22:00:14:985:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 1)
+27/06/2018-22:00:14:990:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:14:998:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-22:00:15:172:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:15:177:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-22:00:15:181:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-22:00:15:186:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-22:00:15:190:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:15:195:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 210)
+27/06/2018-22:00:26:431:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:26:441:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 1)
+27/06/2018-22:00:26:446:					>> fnValidarFinal_999_999(1, MapaBase)
+27/06/2018-22:00:26:455:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-22:00:26:462:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:26:473:				>> fnXML_AlterarValor(TEF\NSU, 22002629603, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:00:26:520:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-22:00:26:528:				>> fnXML_AlterarValor(TEF\RedeAdquirente, 000, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:00:26:551:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-22:00:26:555:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101177, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:00:26:582:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-22:00:26:587:			<< fnTransacaoVenda_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:26:592:			>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:00:26:632:				>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-22:00:26:637:				<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-22:00:26:647:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-22:00:26:652:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:26:684:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-22:00:26:689:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:26:695:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-22:00:26:699:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:26:708:		<< fnEfetuarPagamentoTEF_NFCE - RETORNO NUMERO: 1
+27/06/2018-22:00:26:713:	<< aCFEfetuarPagamento_NFCe_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:26:718:	-----------------------------------------------------
+
+27/06/2018-22:00:28:558:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-22:00:28:564:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:28:570:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos1.imp, 1)
+27/06/2018-22:00:28:605:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:28:616:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos2.imp, 1)
+27/06/2018-22:00:28:637:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:28:643:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos3.imp, 1)
+27/06/2018-22:00:28:663:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:28:678:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos4.imp, 1)
+27/06/2018-22:00:28:708:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:28:712:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos5.imp, 1)
+27/06/2018-22:00:28:717:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:28:847:			## Retorno da funcao tCFEncerrar_GNE = '1'
+27/06/2018-22:00:28:851:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpPK, )
+27/06/2018-22:00:28:855:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:28:860:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCO, )
+27/06/2018-22:00:28:864:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:28:868:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCK, )
+27/06/2018-22:00:28:872:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:28:877:			## Leitura do arquivo realizada com sucesso! Arquivo = [C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\documentosEnvio.xml]
+27/06/2018-22:00:28:881:		>> fnEnviarNF_WS_Daruma(<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000081000241337" versao="3.10"><ide><cUF>43</cUF><cNF>00024133</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>8</nNF><dhEmi>2018-06-27T22:00:28-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>7</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>5</vUnCom><vProd>5.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>5</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>5.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>5.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>5.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>021392</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************7777POS:03876463 DOC:021014 AUTORIZ:021833VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************8888POS:03876463 DOC:017070 AUTORIZ:031113VALOR FINAL: R$ 1,00VENDA CREDITO PARC.ADM.DEMOCARD ************8888POS:03876463 DOC:015733 AUTORIZ:011364POS:03876463 DOC:015733 AUTORIZ:011364VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************4844POS:03876463 DOC:015192 AUTORIZ:010200VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************4646POS:03876463 DOC:004755 AUTORIZ:021392VALOR FINAL: R$ 5,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000081000241337&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375432323a30303a32382d30333a3030&vNF=5.00&vICMS=0.00&digVal=7638546144414c447557574d546f5672557135364d684b6446594d3d&cIdToken=000001&cHashQRCode=74273745B5BE0AE6C7FED956D64BFE0C0ECD9B4F]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , , , 1, 0, )
+27/06/2018-22:00:28:886:			## Enviando ao servidor NFCe ...
+27/06/2018-22:00:28:890:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\TipoAmbiente, )
+27/06/2018-22:00:28:895:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:28:900:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\PathXMLRetorno, )
+27/06/2018-22:00:28:904:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:28:909:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\HistoricoXML, )
+27/06/2018-22:00:28:913:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:28:918:			## URL do servidor = 'https://simula.invoicy.com.br/awsrecepcaonfce.aspx'
+27/06/2018-22:00:28:922:			>> EnviarNF_WS_Daruma(https://simula.invoicy.com.br/awsrecepcaonfce.aspx, <NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000081000241337" versao="3.10"><ide><cUF>43</cUF><cNF>00024133</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>8</nNF><dhEmi>2018-06-27T22:00:28-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>7</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>5</vUnCom><vProd>5.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>5</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>5.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>5.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>5.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>021392</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************7777POS:03876463 DOC:021014 AUTORIZ:021833VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************8888POS:03876463 DOC:017070 AUTORIZ:031113VALOR FINAL: R$ 1,00VENDA CREDITO PARC.ADM.DEMOCARD ************8888POS:03876463 DOC:015733 AUTORIZ:011364POS:03876463 DOC:015733 AUTORIZ:011364VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************4844POS:03876463 DOC:015192 AUTORIZ:010200VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************4646POS:03876463 DOC:004755 AUTORIZ:021392VALOR FINAL: R$ 5,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000081000241337&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375432323a30303a32382d30333a3030&vNF=5.00&vICMS=0.00&digVal=7638546144414c447557574d546f5672557135364d684b6446594d3d&cIdToken=000001&cHashQRCode=74273745B5BE0AE6C7FED956D64BFE0C0ECD9B4F]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , 11.19.24, , , 1, 3, , 0, 0, 10)
+27/06/2018-22:00:28:929:				 # WS_DarumaFramework INICIADA!
+27/06/2018-22:00:33:649:				 # WS_DarumaFramework DESCARREGADA - RETORNO NUMERO: 1
+27/06/2018-22:00:33:658:			<< EnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:33:664:			## Retorno da funcao = '1'
+27/06/2018-22:00:33:670:				(1) => <DocModelo>65</DocModelo><DocNumero>8</DocNumero><DocSerie>1</DocSerie><DocChaAcesso /><DocProtocolo>143132560730158</DocProtocolo><DocEvenSeq>0</DocEvenSeq><DocEveTp>0</DocEveTp><DocEveId /><LinkXML>https://simula.invoicy.com.br/hnuc005.aspx?/qAB1trMQ+LR9/kT8d4mmtFz0Eq0gnLorGXwjzAkR3M=</LinkXML><Situacao><SitCodigo>100</SitCodigo><SitDescricao>Autorizado o uso da NFC-e</SitDescricao></Situacao>
+27/06/2018-22:00:33:676:				(2) => Resposta WS = 100 Autorizado o uso da NFC-
+27/06/2018-22:00:33:683:			===================== Resposta Auditada =====================
+27/06/2018-22:00:33:688:		<< fnEnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:33:867:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos5.imp, 1)
+27/06/2018-22:00:33:872:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:33:876:		>> fnConfirmarTransacao_TEF_Daruma(, 18062722002622002629603, VISANET, 000)
+27/06/2018-22:00:33:881:			>> fnConfirmarTransacao(CNF, , 18062722002622002629603, VISANET, 000)
+27/06/2018-22:00:33:886:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 4)
+27/06/2018-22:00:33:890:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:33:947:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-22:00:33:962:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:33:966:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-22:00:33:971:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-22:00:33:975:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-22:00:33:981:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-22:00:33:986:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101237, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:00:34:011:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-22:00:34:015:			<< fnConfirmarTransacao - RETORNO NUMERO: 1
+27/06/2018-22:00:34:021:		<< fnConfirmarTransacao_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:00:34:025:		>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\renat\Desktop\Programação Comercial\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:00:34:049:			>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-22:00:34:054:			<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-22:00:34:062:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-22:00:34:067:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:41:55:901:			>> fnDefinirProduto_Daruma(TEF)
+27/06/2018-22:41:55:907:				# Inicializar Conformidade
+27/06/2018-22:41:55:912:				# Conformidade de Status STS iniciado
+27/06/2018-22:41:55:918:				# Conformidade de Confirmação da Ultima Transação CNF iniciado
+27/06/2018-22:41:55:923:				# Conformidade de Desfazer a Ultima Transação NCN iniciado
+27/06/2018-22:41:55:928:				# Conformidade de Requisição de Transação de Venda CRT iniciado
+27/06/2018-22:41:55:934:				# Conformidade de Resposta de Transação de Venda CRT iniciado
+27/06/2018-22:41:55:940:				# Conformidade de Requisição de Transação de Administrativa ADM iniciado
+27/06/2018-22:41:55:945:				# Conformidade de Resposta de Transação de Administrativa ADM iniciado
+27/06/2018-22:41:55:951:				# Conformidade de Requisição de Transação de Cancelamento CNC iniciado
+27/06/2018-22:41:55:956:				# Conformidade de Resposta de Transação de Cancelamento CNC iniciado
+27/06/2018-22:41:55:962:				# Conformidade de Requisição de Captura de Dado CDP iniciado
+27/06/2018-22:41:55:967:				# Conformidade de Resposta de Captura de Dado CDP iniciado
+27/06/2018-22:41:55:972:			<< fnDefinirProduto_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:41:55:978:			>> fnTransacaoVenda_TEF_Daruma(9, 500, , , , , , , , , , )
+27/06/2018-22:41:55:984:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 1)
+27/06/2018-22:41:55:990:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-22:41:56:014:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-22:41:56:188:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:41:56:194:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-22:41:56:200:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-22:41:56:213:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-22:41:56:221:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-22:41:56:228:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 210)
+27/06/2018-22:42:04:595:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:04:608:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 1)
+27/06/2018-22:42:04:619:					>> fnValidarFinal_999_999(1, MapaBase)
+27/06/2018-22:42:04:631:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-22:42:04:638:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:04:648:				>> fnXML_AlterarValor(TEF\NSU, 22420410823, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:42:04:673:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-22:42:04:677:				>> fnXML_AlterarValor(TEF\RedeAdquirente, 000, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:42:04:708:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-22:42:04:713:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101247, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:42:04:737:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-22:42:04:742:			<< fnTransacaoVenda_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:04:747:			>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:42:04:771:				>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-22:42:04:776:				<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-22:42:04:786:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-22:42:04:792:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:04:804:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-22:42:04:809:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:04:816:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+27/06/2018-22:42:04:821:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:04:832:		<< fnEfetuarPagamentoTEF_NFCE - RETORNO NUMERO: 1
+27/06/2018-22:42:04:836:	<< aCFEfetuarPagamento_NFCe_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:04:842:	-----------------------------------------------------
+
+27/06/2018-22:42:07:355:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-22:42:07:375:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:07:381:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos1.imp, 1)
+27/06/2018-22:42:07:411:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:07:418:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos2.imp, 1)
+27/06/2018-22:42:07:442:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:07:448:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos3.imp, 1)
+27/06/2018-22:42:07:474:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:07:481:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos4.imp, 1)
+27/06/2018-22:42:07:487:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:07:747:			## Retorno da funcao tCFEncerrar_GNE = '1'
+27/06/2018-22:42:07:754:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpPK, )
+27/06/2018-22:42:07:761:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:07:768:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCO, )
+27/06/2018-22:42:07:774:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:07:780:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCK, )
+27/06/2018-22:42:07:786:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:07:792:			## Leitura do arquivo realizada com sucesso! Arquivo = [C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\documentosEnvio.xml]
+27/06/2018-22:42:07:798:		>> fnEnviarNF_WS_Daruma(<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000091000146862" versao="3.10"><ide><cUF>43</cUF><cNF>00014686</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>9</nNF><dhEmi>2018-06-27T22:42:07-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>2</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>5</vUnCom><vProd>5.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>5</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>5.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>5.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>5.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>011883</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:010433 AUTORIZ:027984VALOR FINAL: R$ 6,00VENDA CREDITO A VISTADEMOCARD ************2222POS:03876463 DOC:015166 AUTORIZ:031219VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:029374 AUTORIZ:011883VALOR FINAL: R$ 5,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000091000146862&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375432323a34323a30372d30333a3030&vNF=5.00&vICMS=0.00&digVal=7a5768564169686c7a4862496f74642f4a546766514b7a415353343d&cIdToken=000001&cHashQRCode=BEB62A43F55B2CC6ADE76AE316E0BCD5189A4574]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , , , 1, 0, )
+27/06/2018-22:42:07:805:			## Enviando ao servidor NFCe ...
+27/06/2018-22:42:07:813:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\TipoAmbiente, )
+27/06/2018-22:42:07:820:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:07:828:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\PathXMLRetorno, )
+27/06/2018-22:42:07:836:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:07:844:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\HistoricoXML, )
+27/06/2018-22:42:07:851:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:07:858:			## URL do servidor = 'https://simula.invoicy.com.br/awsrecepcaonfce.aspx'
+27/06/2018-22:42:07:864:			>> EnviarNF_WS_Daruma(https://simula.invoicy.com.br/awsrecepcaonfce.aspx, <NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000091000146862" versao="3.10"><ide><cUF>43</cUF><cNF>00014686</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>9</nNF><dhEmi>2018-06-27T22:42:07-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>2</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>5</vUnCom><vProd>5.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>5</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>5.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>5.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>5.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>011883</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:010433 AUTORIZ:027984VALOR FINAL: R$ 6,00VENDA CREDITO A VISTADEMOCARD ************2222POS:03876463 DOC:015166 AUTORIZ:031219VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:029374 AUTORIZ:011883VALOR FINAL: R$ 5,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000091000146862&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32375432323a34323a30372d30333a3030&vNF=5.00&vICMS=0.00&digVal=7a5768564169686c7a4862496f74642f4a546766514b7a415353343d&cIdToken=000001&cHashQRCode=BEB62A43F55B2CC6ADE76AE316E0BCD5189A4574]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , 11.19.24, , , 1, 3, , 0, 0, 10)
+27/06/2018-22:42:07:878:				 # WS_DarumaFramework INICIADA!
+27/06/2018-22:42:12:029:				 # WS_DarumaFramework DESCARREGADA - RETORNO NUMERO: 1
+27/06/2018-22:42:12:036:			<< EnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:12:042:			## Retorno da funcao = '1'
+27/06/2018-22:42:12:049:				(1) => <DocModelo>65</DocModelo><DocNumero>9</DocNumero><DocSerie>1</DocSerie><DocChaAcesso /><DocProtocolo>143132130386374</DocProtocolo><DocEvenSeq>0</DocEvenSeq><DocEveTp>0</DocEveTp><DocEveId /><LinkXML>https://simula.invoicy.com.br/hnuc005.aspx?/qAB1trMQ+LR9/kT8d4mmtFz0Eq0gnLorGXwjzAkR3M=</LinkXML><Situacao><SitCodigo>100</SitCodigo><SitDescricao>Autorizado o uso da NFC-e</SitDescricao></Situacao>
+27/06/2018-22:42:12:056:				(2) => Resposta WS = 100 Autorizado o uso da NFC-
+27/06/2018-22:42:12:062:			===================== Resposta Auditada =====================
+27/06/2018-22:42:12:069:		<< fnEnviarNF_WS_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:12:382:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos4.imp, 1)
+27/06/2018-22:42:12:390:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:12:395:		>> fnConfirmarTransacao_TEF_Daruma(, 18062722420422420410823, VISANET, 000)
+27/06/2018-22:42:12:402:			>> fnConfirmarTransacao(CNF, , 18062722420422420410823, VISANET, 000)
+27/06/2018-22:42:12:410:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 4)
+27/06/2018-22:42:12:417:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:12:429:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+27/06/2018-22:42:12:744:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:12:751:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+27/06/2018-22:42:12:757:					>> fnValidarFinal_999_999(7, MapaBase)
+27/06/2018-22:42:12:763:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+27/06/2018-22:42:12:771:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+27/06/2018-22:42:12:779:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101307, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:42:12:822:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+27/06/2018-22:42:12:830:			<< fnConfirmarTransacao - RETORNO NUMERO: 1
+27/06/2018-22:42:12:838:		<< fnConfirmarTransacao_TEF_Daruma - RETORNO NUMERO: 1
+27/06/2018-22:42:12:847:		>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+27/06/2018-22:42:12:929:			>> fnXML_START_DefinirProduto(NFCE)
+27/06/2018-22:42:12:935:			<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+27/06/2018-22:42:12:947:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+27/06/2018-22:42:12:961:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:03:501:			>> fnDefinirProduto_Daruma(TEF)
+28/06/2018-06:52:03:517:				# Inicializar Conformidade
+28/06/2018-06:52:03:531:				# Conformidade de Status STS iniciado
+28/06/2018-06:52:03:541:				# Conformidade de Confirmação da Ultima Transação CNF iniciado
+28/06/2018-06:52:03:551:				# Conformidade de Desfazer a Ultima Transação NCN iniciado
+28/06/2018-06:52:03:562:				# Conformidade de Requisição de Transação de Venda CRT iniciado
+28/06/2018-06:52:03:571:				# Conformidade de Resposta de Transação de Venda CRT iniciado
+28/06/2018-06:52:03:582:				# Conformidade de Requisição de Transação de Administrativa ADM iniciado
+28/06/2018-06:52:03:594:				# Conformidade de Resposta de Transação de Administrativa ADM iniciado
+28/06/2018-06:52:03:605:				# Conformidade de Requisição de Transação de Cancelamento CNC iniciado
+28/06/2018-06:52:03:615:				# Conformidade de Resposta de Transação de Cancelamento CNC iniciado
+28/06/2018-06:52:03:625:				# Conformidade de Requisição de Captura de Dado CDP iniciado
+28/06/2018-06:52:03:637:				# Conformidade de Resposta de Captura de Dado CDP iniciado
+28/06/2018-06:52:03:648:			<< fnDefinirProduto_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:03:658:			>> fnTransacaoVenda_TEF_Daruma(10, 500, , , , , , , , , , )
+28/06/2018-06:52:03:670:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 1)
+28/06/2018-06:52:03:681:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:03:693:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+28/06/2018-06:52:03:814:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:03:821:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+28/06/2018-06:52:03:827:					>> fnValidarFinal_999_999(7, MapaBase)
+28/06/2018-06:52:03:832:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+28/06/2018-06:52:03:837:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:03:843:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 210)
+28/06/2018-06:52:11:936:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:11:945:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 1)
+28/06/2018-06:52:11:951:					>> fnValidarFinal_999_999(1, MapaBase)
+28/06/2018-06:52:11:962:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+28/06/2018-06:52:11:969:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:11:979:				>> fnXML_AlterarValor(TEF\NSU, 06521105609, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-06:52:12:016:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+28/06/2018-06:52:12:024:				>> fnXML_AlterarValor(TEF\RedeAdquirente, 000, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-06:52:12:050:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+28/06/2018-06:52:12:057:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101317, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-06:52:12:085:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+28/06/2018-06:52:12:091:			<< fnTransacaoVenda_TEF_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:12:096:			>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-06:52:12:127:				>> fnXML_START_DefinirProduto(NFCE)
+28/06/2018-06:52:12:132:				<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+28/06/2018-06:52:12:145:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+28/06/2018-06:52:12:153:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:12:168:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+28/06/2018-06:52:12:176:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:12:184:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+28/06/2018-06:52:12:190:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:12:202:		<< fnEfetuarPagamentoTEF_NFCE - RETORNO NUMERO: 1
+28/06/2018-06:52:12:207:	<< aCFEfetuarPagamento_NFCe_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:12:213:	-----------------------------------------------------
+
+28/06/2018-06:52:13:835:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+28/06/2018-06:52:13:861:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:13:868:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos1.imp, 1)
+28/06/2018-06:52:14:013:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:14:020:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos2.imp, 1)
+28/06/2018-06:52:14:043:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:14:052:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos3.imp, 1)
+28/06/2018-06:52:14:075:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:14:082:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos4.imp, 1)
+28/06/2018-06:52:14:113:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:14:119:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos5.imp, 1)
+28/06/2018-06:52:14:126:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:14:326:			## Retorno da funcao tCFEncerrar_GNE = '1'
+28/06/2018-06:52:14:333:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpPK, )
+28/06/2018-06:52:14:339:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:14:346:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCO, )
+28/06/2018-06:52:14:353:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:14:359:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCK, )
+28/06/2018-06:52:14:366:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:14:372:			## Leitura do arquivo realizada com sucesso! Arquivo = [C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\documentosEnvio.xml]
+28/06/2018-06:52:14:378:		>> fnEnviarNF_WS_Daruma(<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000101000143317" versao="3.10"><ide><cUF>43</cUF><cNF>00014331</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>10</nNF><dhEmi>2018-06-28T06:52:14-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>7</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>5</vUnCom><vProd>5.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>5</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>5.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>5.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>5.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>015428</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:010433 AUTORIZ:027984VALOR FINAL: R$ 6,00VENDA CREDITO A VISTADEMOCARD ************2222POS:03876463 DOC:015166 AUTORIZ:031219VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:029374 AUTORIZ:011883VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************1111POS:03876463 DOC:029980 AUTORIZ:015428VALOR FINAL: R$ 5,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000101000143317&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32385430363a35323a31342d30333a3030&vNF=5.00&vICMS=0.00&digVal=335743636349504934564251346f69453267476a4e372f354835303d&cIdToken=000001&cHashQRCode=F758C70384E3923E737FA8C5028B9363D97B8300]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , , , 1, 0, )
+28/06/2018-06:52:14:384:			## Enviando ao servidor NFCe ...
+28/06/2018-06:52:14:391:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\TipoAmbiente, )
+28/06/2018-06:52:14:396:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:14:403:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\PathXMLRetorno, )
+28/06/2018-06:52:14:410:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:14:417:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\HistoricoXML, )
+28/06/2018-06:52:14:424:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:14:431:			## URL do servidor = 'https://simula.invoicy.com.br/awsrecepcaonfce.aspx'
+28/06/2018-06:52:14:438:			>> EnviarNF_WS_Daruma(https://simula.invoicy.com.br/awsrecepcaonfce.aspx, <NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000101000143317" versao="3.10"><ide><cUF>43</cUF><cNF>00014331</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>10</nNF><dhEmi>2018-06-28T06:52:14-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>7</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>5</vUnCom><vProd>5.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>5</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>5.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>5.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>5.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>015428</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:010433 AUTORIZ:027984VALOR FINAL: R$ 6,00VENDA CREDITO A VISTADEMOCARD ************2222POS:03876463 DOC:015166 AUTORIZ:031219VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:029374 AUTORIZ:011883VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************1111POS:03876463 DOC:029980 AUTORIZ:015428VALOR FINAL: R$ 5,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000101000143317&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32385430363a35323a31342d30333a3030&vNF=5.00&vICMS=0.00&digVal=335743636349504934564251346f69453267476a4e372f354835303d&cIdToken=000001&cHashQRCode=F758C70384E3923E737FA8C5028B9363D97B8300]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , 11.19.24, , , 1, 3, , 0, 0, 10)
+28/06/2018-06:52:14:448:				 # WS_DarumaFramework INICIADA!
+28/06/2018-06:52:16:105:				 # WS_DarumaFramework DESCARREGADA - RETORNO NUMERO: 1
+28/06/2018-06:52:16:118:			<< EnviarNF_WS_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:16:124:			## Retorno da funcao = '1'
+28/06/2018-06:52:16:131:				(1) => <DocModelo>65</DocModelo><DocNumero>10</DocNumero><DocSerie>1</DocSerie><DocChaAcesso /><DocProtocolo>143136276152202</DocProtocolo><DocEvenSeq>0</DocEvenSeq><DocEveTp>0</DocEveTp><DocEveId /><LinkXML>https://simula.invoicy.com.br/hnuc005.aspx?/qAB1trMQ+LR9/kT8d4mmtFz0Eq0gnLorGXwjzAkR3M=</LinkXML><Situacao><SitCodigo>100</SitCodigo><SitDescricao>Autorizado o uso da NFC-e</SitDescricao></Situacao>
+28/06/2018-06:52:16:138:				(2) => Resposta WS = 100 Autorizado o uso da NFC-
+28/06/2018-06:52:16:144:			===================== Resposta Auditada =====================
+28/06/2018-06:52:16:151:		<< fnEnviarNF_WS_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:16:452:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos5.imp, 1)
+28/06/2018-06:52:16:460:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:16:467:		>> fnConfirmarTransacao_TEF_Daruma(, 18062806521106521105609, VISANET, 000)
+28/06/2018-06:52:16:474:			>> fnConfirmarTransacao(CNF, , 18062806521106521105609, VISANET, 000)
+28/06/2018-06:52:16:481:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 4)
+28/06/2018-06:52:16:489:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:16:501:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+28/06/2018-06:52:16:709:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:16:716:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+28/06/2018-06:52:16:724:					>> fnValidarFinal_999_999(7, MapaBase)
+28/06/2018-06:52:16:732:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+28/06/2018-06:52:16:739:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+28/06/2018-06:52:16:744:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101377, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-06:52:16:772:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+28/06/2018-06:52:16:786:			<< fnConfirmarTransacao - RETORNO NUMERO: 1
+28/06/2018-06:52:16:793:		<< fnConfirmarTransacao_TEF_Daruma - RETORNO NUMERO: 1
+28/06/2018-06:52:16:801:		>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-06:52:16:836:			>> fnXML_START_DefinirProduto(NFCE)
+28/06/2018-06:52:16:842:			<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+28/06/2018-06:52:16:855:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+28/06/2018-06:52:16:864:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:10:436:			>> fnDefinirProduto_Daruma(TEF)
+28/06/2018-07:10:10:441:				# Inicializar Conformidade
+28/06/2018-07:10:10:447:				# Conformidade de Status STS iniciado
+28/06/2018-07:10:10:454:				# Conformidade de Confirmação da Ultima Transação CNF iniciado
+28/06/2018-07:10:10:460:				# Conformidade de Desfazer a Ultima Transação NCN iniciado
+28/06/2018-07:10:10:466:				# Conformidade de Requisição de Transação de Venda CRT iniciado
+28/06/2018-07:10:10:472:				# Conformidade de Resposta de Transação de Venda CRT iniciado
+28/06/2018-07:10:10:477:				# Conformidade de Requisição de Transação de Administrativa ADM iniciado
+28/06/2018-07:10:10:483:				# Conformidade de Resposta de Transação de Administrativa ADM iniciado
+28/06/2018-07:10:10:490:				# Conformidade de Requisição de Transação de Cancelamento CNC iniciado
+28/06/2018-07:10:10:501:				# Conformidade de Resposta de Transação de Cancelamento CNC iniciado
+28/06/2018-07:10:10:513:				# Conformidade de Requisição de Captura de Dado CDP iniciado
+28/06/2018-07:10:10:526:				# Conformidade de Resposta de Captura de Dado CDP iniciado
+28/06/2018-07:10:10:543:			<< fnDefinirProduto_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:10:555:			>> fnTransacaoVenda_TEF_Daruma(11, 700, , , , , , , , , , )
+28/06/2018-07:10:10:564:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 1)
+28/06/2018-07:10:10:573:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:10:586:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+28/06/2018-07:10:10:831:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:10:837:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+28/06/2018-07:10:10:845:					>> fnValidarFinal_999_999(7, MapaBase)
+28/06/2018-07:10:10:853:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+28/06/2018-07:10:10:860:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:10:867:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 210)
+28/06/2018-07:10:45:169:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:45:179:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 1)
+28/06/2018-07:10:45:188:					>> fnValidarFinal_999_999(1, MapaBase)
+28/06/2018-07:10:45:196:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+28/06/2018-07:10:45:205:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:45:214:				>> fnXML_AlterarValor(TEF\NSU, 07104411290, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-07:10:45:246:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+28/06/2018-07:10:45:253:				>> fnXML_AlterarValor(TEF\RedeAdquirente, 000, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-07:10:45:277:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+28/06/2018-07:10:45:283:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101387, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-07:10:45:319:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+28/06/2018-07:10:45:325:			<< fnTransacaoVenda_TEF_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:45:331:			>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-07:10:45:376:				>> fnXML_START_DefinirProduto(NFCE)
+28/06/2018-07:10:45:386:				<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+28/06/2018-07:10:45:405:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+28/06/2018-07:10:45:413:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:45:429:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+28/06/2018-07:10:45:438:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:45:447:			>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.001, 1)
+28/06/2018-07:10:45:464:			<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:45:547:		<< fnEfetuarPagamentoTEF_NFCE - RETORNO NUMERO: 1
+28/06/2018-07:10:45:561:	<< aCFEfetuarPagamento_NFCe_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:45:576:	-----------------------------------------------------
+
+28/06/2018-07:10:47:537:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+28/06/2018-07:10:47:544:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:47:551:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos1.imp, 1)
+28/06/2018-07:10:47:557:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:47:564:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos2.imp, 1)
+28/06/2018-07:10:47:570:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:47:576:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos3.imp, 1)
+28/06/2018-07:10:47:583:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:47:591:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos4.imp, 1)
+28/06/2018-07:10:47:599:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:47:606:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos5.imp, 1)
+28/06/2018-07:10:47:613:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:47:619:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos6.imp, 1)
+28/06/2018-07:10:47:626:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:47:825:			## Retorno da funcao tCFEncerrar_GNE = '1'
+28/06/2018-07:10:47:831:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpPK, )
+28/06/2018-07:10:47:837:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:47:844:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCO, )
+28/06/2018-07:10:47:851:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:47:857:		>> regRetornarValor_GNE_Daruma(CONFIGURACAO\EmpCK, )
+28/06/2018-07:10:47:863:		<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:47:870:			## Leitura do arquivo realizada com sucesso! Arquivo = [C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\documentosEnvio.xml]
+28/06/2018-07:10:47:876:		>> fnEnviarNF_WS_Daruma(<NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000111000168066" versao="3.10"><ide><cUF>43</cUF><cNF>00016806</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>11</nNF><dhEmi>2018-06-28T07:10:47-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>6</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>7</vUnCom><vProd>7.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>7</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>7.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>7.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>7.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>7.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>7.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>021809</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:010433 AUTORIZ:027984VALOR FINAL: R$ 6,00VENDA CREDITO A VISTADEMOCARD ************2222POS:03876463 DOC:015166 AUTORIZ:031219VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:029374 AUTORIZ:011883VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************1111POS:03876463 DOC:029980 AUTORIZ:015428VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:030663 AUTORIZ:021809VALOR FINAL: R$ 7,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000111000168066&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32385430373a31303a34372d30333a3030&vNF=7.00&vICMS=0.00&digVal=61754f78324b48454b4455654478544448484441456530463047593d&cIdToken=000001&cHashQRCode=D01CF571FDF22C0C51680E8185E3A78B7ADE0AE6]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , , , 1, 0, )
+28/06/2018-07:10:47:883:			## Enviando ao servidor NFCe ...
+28/06/2018-07:10:47:890:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\TipoAmbiente, )
+28/06/2018-07:10:47:895:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:47:903:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\PathXMLRetorno, )
+28/06/2018-07:10:47:910:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:47:918:			>> regRetornarValor_GNE_Daruma(CONFIGURACAO\HistoricoXML, )
+28/06/2018-07:10:47:925:			<< regRetornarValor_GNE_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:47:931:			## URL do servidor = 'https://simula.invoicy.com.br/awsrecepcaonfce.aspx'
+28/06/2018-07:10:47:937:			>> EnviarNF_WS_Daruma(https://simula.invoicy.com.br/awsrecepcaonfce.aspx, <NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43180611111111111111650010000000111000168066" versao="3.10"><ide><cUF>43</cUF><cNF>00016806</cNF><natOp>Venda</natOp><indPag>0</indPag><mod>65</mod><serie>1</serie><nNF>11</nNF><dhEmi>2018-06-28T07:10:47-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4321808</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>6</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>1.0</verProc></ide><emit><CNPJ>11111111111111</CNPJ><xNome>Razão Social</xNome><enderEmit><xLgr>Logradouro</xLgr><nro>001</nro><xBairro>Bairro</xBairro><cMun>4321808</cMun><xMun>Município</xMun><UF>SP</UF><CEP>11111111</CEP></enderEmit><IE>11111111111111</IE><CRT>1</CRT></emit><det nItem='1'><prod><cProd>7</cProd><cEAN> </cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>U</uCom><qCom>1.0000</qCom><vUnCom>7</vUnCom><vProd>7.00</vProd><cEANTrib> </cEANTrib><uTrib>U</uTrib><qTrib>1.0000</qTrib><vUnTrib>7</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>7.00</vBC><pICMS>0.00</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS></imposto></det><total><ICMSTot><vBC>7.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>7.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>7.00</vNF></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><tPag>04</tPag><vPag>7.00</vPag><card><tpIntegra>1</tpIntegra><CNPJ>01027058000191</CNPJ><tBand>99</tBand><cAut>021809</cAut></card></pag><infAdic><infCpl>FVENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:012419 AUTORIZ:010394VALOR FINAL: R$ 1,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:010433 AUTORIZ:027984VALOR FINAL: R$ 6,00VENDA CREDITO A VISTADEMOCARD ************2222POS:03876463 DOC:015166 AUTORIZ:031219VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:029374 AUTORIZ:011883VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************1111POS:03876463 DOC:029980 AUTORIZ:015428VALOR FINAL: R$ 5,00VENDA CREDITO A VISTADEMOCARD ************5555POS:03876463 DOC:030663 AUTORIZ:021809VALOR FINAL: R$ 7,00</infCpl></infAdic></infNFe><infNFeSupl><qrCode><![CDATA[https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=43180611111111111111650010000000111000168066&nVersao=100&tpAmb=2&dhEmi=323031382d30362d32385430373a31303a34372d30333a3030&vNF=7.00&vICMS=0.00&digVal=61754f78324b48454b4455654478544448484441456530463047593d&cIdToken=000001&cHashQRCode=D01CF571FDF22C0C51680E8185E3A78B7ADE0AE6]]></qrCode></infNFeSupl></NFe>, , , 6KzaQrjy4jeg8aTcS/qEVA==, 001, , 11.19.24, , , 1, 3, , 0, 0, 10)
+28/06/2018-07:10:47:946:				 # WS_DarumaFramework INICIADA!
+28/06/2018-07:10:49:754:				 # WS_DarumaFramework DESCARREGADA - RETORNO NUMERO: 1
+28/06/2018-07:10:49:761:			<< EnviarNF_WS_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:49:767:			## Retorno da funcao = '1'
+28/06/2018-07:10:49:774:				(1) => <DocModelo>65</DocModelo><DocNumero>11</DocNumero><DocSerie>1</DocSerie><DocChaAcesso /><DocProtocolo>143132133117267</DocProtocolo><DocEvenSeq>0</DocEvenSeq><DocEveTp>0</DocEveTp><DocEveId /><LinkXML>https://simula.invoicy.com.br/hnuc005.aspx?/qAB1trMQ+LR9/kT8d4mmtO78/uyXQc79NAoEaoMYRc=</LinkXML><Situacao><SitCodigo>100</SitCodigo><SitDescricao>Autorizado o uso da NFC-e</SitDescricao></Situacao>
+28/06/2018-07:10:49:781:				(2) => Resposta WS = 100 Autorizado o uso da NFC-
+28/06/2018-07:10:49:787:			===================== Resposta Auditada =====================
+28/06/2018-07:10:49:794:		<< fnEnviarNF_WS_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:50:049:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos6.imp, 1)
+28/06/2018-07:10:50:056:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:50:064:		>> fnConfirmarTransacao_TEF_Daruma(, 18062807104407104411290, VISANET, 000)
+28/06/2018-07:10:50:070:			>> fnConfirmarTransacao(CNF, , 18062807104407104411290, VISANET, 000)
+28/06/2018-07:10:50:077:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 0, 4)
+28/06/2018-07:10:50:083:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:50:094:				>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\IntPos.Sts, 30)
+28/06/2018-07:10:50:194:				<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:50:201:				>> fnValidarConformidade_TEF(MapaBase, MapaComparacao, 1, 7)
+28/06/2018-07:10:50:208:					>> fnValidarFinal_999_999(7, MapaBase)
+28/06/2018-07:10:50:216:					<< fnValidarFinal_999_999 - RETORNO NUMERO: 1
+28/06/2018-07:10:50:224:				<< fnValidarConformidade_TEF - RETORNO NUMERO: 1
+28/06/2018-07:10:50:232:				>> fnXML_AlterarValor(TEF\NumeroSessao, 101447, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-07:10:50:272:				<< fnXML_AlterarValor - RETORNO NUMERO: 1
+28/06/2018-07:10:50:279:			<< fnConfirmarTransacao - RETORNO NUMERO: 1
+28/06/2018-07:10:50:286:		<< fnConfirmarTransacao_TEF_Daruma - RETORNO NUMERO: 1
+28/06/2018-07:10:50:294:		>> fnXML_AlterarValor(START\Produto, NFCE, C:\Users\godgc\Desktop\Programação Comercial\Win32\Debug\DarumaFrameWork.xml, 1)
+28/06/2018-07:10:50:343:			>> fnXML_START_DefinirProduto(NFCE)
+28/06/2018-07:10:50:350:			<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+28/06/2018-07:10:50:362:		>> fnRetornarMapINTPos_TEF(C:\PAYGO\Resp\\IntPos0.imp, 1)
+28/06/2018-07:10:50:369:		<< fnRetornarMapINTPos_TEF - RETORNO NUMERO: 1

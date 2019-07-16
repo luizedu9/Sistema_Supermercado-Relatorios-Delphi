@@ -1,0 +1,182 @@
+unit Unit_Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ImgList, Unit_Empresa, Unit_Caixa,
+  Unit_Feedback, Unit_DM;
+
+type
+  TForm_Principal = class(TForm)
+    MainMenu1: TMainMenu;
+    Cadastros1: TMenuItem;
+    Empresa1: TMenuItem;
+    ImageList1: TImageList;
+    Clientes1: TMenuItem;
+    Produtos1: TMenuItem;
+    N1: TMenuItem;
+    GrupodeProdutos1: TMenuItem;
+    SubGrupodeProdutos1: TMenuItem;
+    N2: TMenuItem;
+    AlteraPreos1: TMenuItem;
+    Manuteno1: TMenuItem;
+    Movimentos1: TMenuItem;
+    Vendas1: TMenuItem;
+    N3: TMenuItem;
+    Conta: TMenuItem;
+    CompraProdutos: TMenuItem;
+    Relatorio: TMenuItem;
+    Pagar: TMenuItem;
+    Caixa: TMenuItem;
+    procedure Empresa1Click(Sender: TObject);
+    procedure Clientes1Click(Sender: TObject);
+    procedure Produtos1Click(Sender: TObject);
+    procedure GrupodeProdutos1Click(Sender: TObject);
+    procedure SubGrupodeProdutos1Click(Sender: TObject);
+    procedure AlteraPreos1Click(Sender: TObject);
+    procedure Vendas1Click(Sender: TObject);
+    procedure N3Click(Sender: TObject);
+    procedure ContaClick(Sender: TObject);
+    procedure CompraProdutosClick(Sender: TObject);
+    procedure RelatorioClick(Sender: TObject);
+    procedure PagarClick(Sender: TObject);
+    procedure CaixaClick(Sender: TObject);
+
+    procedure AtualizaDiretorioBanco;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_Principal: TForm_Principal;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit_Clientes, Unit_Produtos, Unit_GrupoProd, Unit_SubGrupoProd,
+  Unit_AlteraPreco, Unit_Venda, Unit_Fornecedores, Unit_Contas_Receber, Unit_Entrada_Produtos, Unit_Contas_Pagar;
+
+procedure TForm_Principal.AtualizaDiretorioBanco;
+var arq: TextFile;
+    linha: string;
+Begin
+  AssignFile(arq, 'diretorioBanco.txt');
+
+  {$I-}         // desativa a diretiva de Input
+  Reset(arq);   // [ 3 ] Abre o arquivo texto para leitura
+  {$I+}         // ativa a diretiva de Input
+
+  if (IOResult <> 0) // verifica o resultado da operação de abertura
+    then ShowMessage('arquivo de configuração do banco de dados nao encontrado')
+    else Begin
+      readln(arq, linha);
+      DM.IBDatabase1.Close;
+      DM.IBDatabase1.DatabaseName:= linha;
+      DM.IBDatabase1.Open;
+    End;
+  CloseFile(arq); // [ 8 ] Fecha o arquivo texto aberto
+
+End;
+
+procedure TForm_Principal.AlteraPreos1Click(Sender: TObject);
+begin
+    Application.CreateForm(TForm_AlteraPreco, Form_AlteraPreco);
+    Form_AlteraPreco.ShowModal;
+    Form_AlteraPreco.Destroy;
+end;
+
+procedure TForm_Principal.CaixaClick(Sender: TObject);
+begin
+     Application.CreateForm(TForm_Caixa, Form_Caixa);
+    Form_Caixa.ShowModal;
+    Form_Caixa.Destroy;
+end;
+
+procedure TForm_Principal.Clientes1Click(Sender: TObject);
+begin
+    Application.CreateForm(TForm_Clientes, Form_Clientes);
+    Form_Clientes.ShowModal;
+    Form_Clientes.Destroy;
+end;
+
+procedure TForm_Principal.CompraProdutosClick(Sender: TObject);
+begin
+  Application.CreateForm(TForm_Entrada_Produtos, Form_Entrada_Produtos);
+    Form_Entrada_Produtos.ShowModal;
+    Form_Entrada_Produtos.Destroy;
+end;
+
+procedure TForm_Principal.ContaClick(Sender: TObject);
+begin
+   Application.CreateForm(TForm_Receber_Conta, Form_Receber_Conta);
+    Form_Receber_Conta.ShowModal;
+    Form_Receber_Conta.Destroy;
+end;
+
+procedure TForm_Principal.Empresa1Click(Sender: TObject);
+begin
+    Application.CreateForm(TForm_DadosEmpresa, Form_DadosEmpresa);
+    Form_DadosEmpresa.ShowModal;
+    Form_DadosEmpresa.Destroy;
+end;
+
+procedure TForm_Principal.FormCreate(Sender: TObject);
+begin
+    AtualizaDiretorioBanco;
+end;
+
+procedure TForm_Principal.GrupodeProdutos1Click(Sender: TObject);
+begin
+    Application.CreateForm(TForm_GrupoProd, Form_GrupoProd);
+    Form_GrupoProd.ShowModal;
+    Form_GrupoProd.Destroy;
+end;
+
+procedure TForm_Principal.N3Click(Sender: TObject);
+begin
+    Application.CreateForm(TForm_Fornecedores, Form_Fornecedores);
+    Form_Fornecedores.ShowModal;
+    Form_Fornecedores.Destroy;
+end;
+
+procedure TForm_Principal.PagarClick(Sender: TObject);
+begin
+   Application.CreateForm(TForm_Contas_Pagar, Form_Contas_Pagar);
+    Form_Contas_Pagar.ShowModal;
+    Form_Contas_Pagar.Destroy;
+end;
+
+procedure TForm_Principal.Produtos1Click(Sender: TObject);
+begin
+    Application.CreateForm(TForm_Produtos, Form_Produtos);
+    Form_Produtos.ShowModal;
+    Form_Produtos.Destroy;
+end;
+
+procedure TForm_Principal.RelatorioClick(Sender: TObject);
+begin
+  Application.CreateForm(TForm_feedback, Form_Feedback);
+  Form_feedback.ShowModal;
+  Form_feedback.Destroy;
+end;
+
+procedure TForm_Principal.SubGrupodeProdutos1Click(Sender: TObject);
+begin
+    Application.CreateForm(TForm_SubGrupoProd, Form_SubGrupoProd);
+    Form_SubGrupoProd.ShowModal;
+    Form_SubGrupoProd.Destroy;
+end;
+
+procedure TForm_Principal.Vendas1Click(Sender: TObject);
+begin
+    Application.CreateForm(TForm_Venda, Form_Venda);
+    Form_Venda.ShowModal;
+    Form_Venda.Destroy;
+end;
+
+end.

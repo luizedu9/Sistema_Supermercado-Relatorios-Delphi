@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/03/08 07:32:25.000.132,=C:\Users\godgc\OneDrive\Documentos\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/08 08:14:41.000.408,C:\Users\godgc\OneDrive\Documentos\RAD Studio\Projects\Unit1.dfm=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_Empresa.dfm</Transaction>
+    <Transaction>2018/03/08 08:14:41.000.408,C:\Users\godgc\OneDrive\Documentos\RAD Studio\Projects\Unit1.pas=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_Empresa.pas</Transaction>
+    <Transaction>2018/03/08 08:14:48.000.005,C:\Users\godgc\OneDrive\Documentos\RAD Studio\Projects\Project1.dproj=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Comercial.dproj</Transaction>
+    <Transaction>2018/03/12 13:39:44.000.838,=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/03/12 13:40:04.000.705,C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_Persistencia.pas=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/03/12 14:46:48.000.016,=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comer</Transaction>
+    <Transaction>2018/03/12 14:46:58.000.772,C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_Util.pas=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/03/12 15:07:29.000.796,=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/03/12 15:07:39.000.700,C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_Principal.pas=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/03/12 15:07:39.000.700,C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_Principal.dfm=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.dfm</Transaction>
+    <Transaction>2018/03/15 07:13:35.000.037,=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/03/15 07:15:12.000.259,C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_Clientes.pas</Transaction>
+    <Transaction>2018/03/15 07:15:12.000.259,C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.dfm=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_Clientes.dfm</Transaction>
+    <Transaction>2018/03/19 13:59:24.000.372,=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/03/19 14:01:33.000.956,C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_Produtos.dfm=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.dfm</Transaction>
+    <Transaction>2018/03/19 14:01:33.000.956,C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_Produtos.pas=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/03/22 07:52:02.000.802,=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/03/22 07:52:37.000.298,C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.pas=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_DM.pas</Transaction>
+    <Transaction>2018/03/22 07:52:37.000.298,C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit1.dfm=C:\Users\godgc\Google Drive\IFMG\7° Periodo\Programação Comercial\Unit_DM.dfm</Transaction>
+    <Transaction>2018/04/09 14:25:27.000.075,C:\Users\godgc\Desktop\Programação Comercial\Unit_Produtos.pas=</Transaction>
+    <Transaction>2018/04/09 14:31:32.000.433,=C:\Users\godgc\Desktop\Programação Comercial\Unit_Produtos.pas</Transaction>
+    <Transaction>2018/04/12 07:27:53.000.666,=C:\Users\godgc\Desktop\Programação Comercial\Unit_GrupoProd.pas</Transaction>
+    <Transaction>2018/04/12 08:23:20.000.228,=C:\Users\godgc\Desktop\Programação Comercial\Unit_SubGrupoProd.pas</Transaction>
+    <Transaction>2018/04/23 14:12:11.000.390,=C:\Users\godgc\Desktop\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 14:13:02.000.188,C:\Users\godgc\Desktop\Programação Comercial\Unit_AlteraPreco.dfm=C:\Users\godgc\Desktop\Programação Comercial\Unit1.dfm</Transaction>
+    <Transaction>2018/04/23 14:13:02.000.188,C:\Users\godgc\Desktop\Programação Comercial\Unit_AlteraPreco.pas=C:\Users\godgc\Desktop\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/04/26 07:20:02.000.580,=C:\Users\godgc\Desktop\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/04/26 07:42:44.000.513,C:\Users\godgc\Desktop\Programação Comercial\Unit1.pas=C:\Users\godgc\Desktop\Programação Comercial\Unit_Venda.pas</Transaction>
+    <Transaction>2018/04/26 07:42:44.000.513,C:\Users\godgc\Desktop\Programação Comercial\Unit1.dfm=C:\Users\godgc\Desktop\Programação Comercial\Unit_Venda.dfm</Transaction>
+    <Transaction>2018/05/14 14:38:07.000.520,=C:\Users\godgc\Desktop\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/05/14 14:38:34.000.209,C:\Users\godgc\Desktop\Programação Comercial\Unit_Fornecedores.dfm=C:\Users\godgc\Desktop\Programação Comercial\Unit1.dfm</Transaction>
+    <Transaction>2018/05/14 14:38:34.000.209,C:\Users\godgc\Desktop\Programação Comercial\Unit_Fornecedores.pas=C:\Users\godgc\Desktop\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/06/07 12:53:19.000.226,=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial\Programação Comercial\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/06/07 12:53:47.000.574,C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial\Programação Comercial\Programação Comercial\Unit1.pas=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial\Programação Comercial\Programação Comercial\Unit_Contas_Receber.pas</Transaction>
+    <Transaction>2018/06/07 12:53:47.000.574,C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial\Programação Comercial\Programação Comercial\Unit1.dfm=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial\Programação Comercial\Programação Comercial\Unit_Contas_Receber.dfm</Transaction>
+    <Transaction>2018/06/07 13:47:08.000.758,=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial\Programação Comercial\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/06/07 13:47:27.000.548,C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial\Programação Comercial\Programação Comercial\Unit1.pas=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial\Programação Comercial\Programação Comercial\Unit_Entrada_Produtos.pas</Transaction>
+    <Transaction>2018/06/07 13:47:27.000.548,C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial\Programação Comercial\Programação Comercial\Unit1.dfm=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial\Programação Comercial\Programação Comercial\Unit_Entrada_Produtos.dfm</Transaction>
+    <Transaction>2018/06/21 23:43:04.000.236,=C:\Users\Luiz Eduardo\Desktop\Programação Comercial - 11-06\Programação Comercial\Unit_Feedback.pas</Transaction>
+    <Transaction>2018/06/23 21:07:43.000.650,=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial - 11-06\Programação Comercial - 11-06\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/06/23 21:08:28.000.314,C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial - 11-06\Programação Comercial - 11-06\Programação Comercial\Unit_Contas_Pagar.pas=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial - 11-06\Programação Comercial - 11-06\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/06/23 21:08:28.000.314,C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial - 11-06\Programação Comercial - 11-06\Programação Comercial\Unit_Contas_Pagar.dfm=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial - 11-06\Programação Comercial - 11-06\Programação Comercial\Unit1.dfm</Transaction>
+    <Transaction>2018/06/24 16:28:43.000.950,=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial - 11-06\Programação Comercial - 11-06\Programação Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/06/24 16:28:55.000.234,C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial - 11-06\Programação Comercial - 11-06\Programação Comercial\Unit_Caixa.dfm=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial - 11-06\Programação Comercial - 11-06\Programação Comercial\Unit1.dfm</Transaction>
+    <Transaction>2018/06/24 16:28:55.000.234,C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial - 11-06\Programação Comercial - 11-06\Programação Comercial\Unit_Caixa.pas=C:\Users\Túlio Parreira Cunha\Desktop\Programação Comercial - 11-06\Programação Comercial - 11-06\Programação Comercial\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit_Clientes.pas"/>
+    <File Path="Unit_Clientes.dfm"/>
+    <File Path="Unit_DM.pas"/>
+    <File Path="Unit_DM.dfm"/>
+    <File Path="Unit_Empresa.pas"/>
+    <File Path="Unit_Empresa.dfm"/>
+    <File Path="Unit_GrupoProd.pas"/>
+    <File Path="Unit_GrupoProd.dfm"/>
+    <File Path="Unit_Persistencia.pas"/>
+    <File Path="Unit_Principal.pas"/>
+    <File Path="Unit_Principal.dfm"/>
+    <File Path="Unit_Produtos.pas"/>
+    <File Path="Unit_Produtos.dfm"/>
+    <File Path="Unit_SubGrupoProd.pas"/>
+    <File Path="Unit_SubGrupoProd.dfm"/>
+    <File Path="Unit_Util.pas"/>
+    <File Path="Unit_AlteraPreco.pas"/>
+    <File Path="Unit_AlteraPreco.dfm"/>
+    <File Path="Unit_Venda.pas"/>
+    <File Path="Unit_Venda.dfm"/>
+    <File Path="Unit_Fornecedores.pas"/>
+    <File Path="Unit_Fornecedores.dfm"/>
+    <File Path="Unit_Contas_Receber.pas"/>
+    <File Path="Unit_Contas_Receber.dfm"/>
+    <File Path="Unit_Entrada_Produtos.pas"/>
+    <File Path="Unit_Entrada_Produtos.dfm"/>
+    <File Path="Unit_Feedback.pas"/>
+    <File Path="Unit_Feedback.dfm"/>
+    <File Path="Unit_Contas_Pagar.pas"/>
+    <File Path="Unit_Contas_Pagar.dfm"/>
+    <File Path="Unit_Caixa.pas"/>
+    <File Path="Unit_Caixa.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

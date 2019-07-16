@@ -1,0 +1,49 @@
+object Form_Contas_Pagar: TForm_Contas_Pagar
+  Left = 0
+  Top = 0
+  Caption = 'Contas Pagar'
+  ClientHeight = 330
+  ClientWidth = 619
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 619
+    Height = 217
+    Align = alTop
+    Caption = 'Panel1'
+    TabOrder = 0
+    object sgdClientes: TStringGrid
+      Left = 1
+      Top = 1
+      Width = 617
+      Height = 215
+      Align = alClient
+      ColCount = 6
+      FixedCols = 0
+      RowCount = 1
+      FixedRows = 0
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect]
+      TabOrder = 0
+      OnSelectCell = sgdClientesSelectCell
+    end
+  end
+  object Button1: TButton
+    Left = 264
+    Top = 248
+    Width = 75
+    Height = 25
+    Caption = 'Pagar Conta'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end

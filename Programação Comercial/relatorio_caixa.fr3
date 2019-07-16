@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.12.13" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42694,5950202662" ReportOptions.Description.Text="" ReportOptions.LastChange="43264,8258357523" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403D80203546F700380010844617461736574730101063E20446174615365743D226672784442446174617365745F63616978612220446174615365744E616D653D226672784442446174617365745F6361697861220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="64,25201" Left="0" Top="18,89765" Width="1046,92981">
+      <TfrxMemoView Name="Memo1" Align="baCenter" Left="387,401825" Top="3,77953" Width="272,12616" Height="18,89765" ShowHint="False" Text="RELATÓRIO - MOVIMENTAÇÃO DO CAIXA"/>
+      <TfrxMemoView Name="Memo4" Left="249,44898" Top="45,35436" Width="128,50402" Height="18,89765" ShowHint="False" Text="Valor Movimentação"/>
+      <TfrxMemoView Name="Memo5" Left="506,45702" Top="45,35436" Width="79,37013" Height="18,89765" ShowHint="False" Text="Data"/>
+      <TfrxMemoView Name="Memo6" Left="585,82715" Top="45,35436" Width="64,25201" Height="18,89765" ShowHint="False" Text="Hora"/>
+      <TfrxMemoView Name="Memo2" Left="0" Top="45,35436" Width="52,91342" Height="18,89765" ShowHint="False" Text="Código"/>
+      <TfrxMemoView Name="Memo7" Left="52,91342" Top="45,35436" Width="196,53556" Height="18,89765" ShowHint="False" Text="Descrição"/>
+      <TfrxMemoView Name="Memo10" Left="377,953" Top="45,35436" Width="128,50402" Height="18,89765" ShowHint="False" Text="Valor Atual"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="22,67718" Left="0" Top="143,62214" Width="1046,92981" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset_caixa" DataSetName="frxDBDataset_caixa" RowCount="0">
+      <TfrxMemoView Name="frxDBDataset_caixaValorTotal" Left="52,91342" Top="0" Width="196,53556" Height="18,89765" ShowHint="False" DataField="Descrição" DataSet="frxDBDataset_caixa" DataSetName="frxDBDataset_caixa" Text="[frxDBDataset_caixa.&#34;Descrição&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset_caixaData" Left="506,45702" Top="0" Width="79,37013" Height="18,89765" ShowHint="False" DataField="Data" DataSet="frxDBDataset_caixa" DataSetName="frxDBDataset_caixa" Text="[frxDBDataset_caixa.&#34;Data&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset_caixaHora" Left="585,82715" Top="0" Width="64,25201" Height="18,89765" ShowHint="False" DataField="Hora" DataSet="frxDBDataset_caixa" DataSetName="frxDBDataset_caixa" Text="[frxDBDataset_caixa.&#34;Hora&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="0" Top="0" Width="52,91342" Height="18,89765" ShowHint="False" DataField="Codigo" DataSet="frxDBDataset_caixa" DataSetName="frxDBDataset_caixa" Text="[frxDBDataset_caixa.&#34;Codigo&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="249,44898" Top="0" Width="128,50402" Height="18,89765" ShowHint="False" DataField="Valor Movimentação" DataSet="frxDBDataset_caixa" DataSetName="frxDBDataset_caixa" Text="[frxDBDataset_caixa.&#34;Valor Movimentação&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="377,953" Top="0" Width="128,50402" Height="18,89765" ShowHint="False" DataField="Valor Atual" DataSet="frxDBDataset_caixa" DataSetName="frxDBDataset_caixa" Text="[frxDBDataset_caixa.&#34;Valor Atual&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
