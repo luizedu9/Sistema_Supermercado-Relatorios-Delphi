@@ -1,6 +1,8 @@
 # Sistema_Supermercado-Relatorios
 
-Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais, IFMG - Campus Formiga Ciência da Computação
+Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais, IFMG - Campus Formiga
+
+Ciência da Computação
 
 Sistema de para atender as necessidades de um supermercado. Controle de vendas, estoques, emissão de relatórios. Trabalho para a disciplina de Programação Comercial.
 
